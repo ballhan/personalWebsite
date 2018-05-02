@@ -1,6 +1,10 @@
 body {
 	margin: 0;
 	background-image: url('../Files/Background.jpg');
+	height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
