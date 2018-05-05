@@ -5,7 +5,7 @@ html, body {
 
 nav {
 	font-family: 'Amatic SC', cursive;
-	font-size: 100%;
+	font-size: 120%;
 }
 
 #home {
@@ -16,20 +16,8 @@ nav {
 	position: relative;  
 	background-attachment: fixed;
 	background-size: cover;
-	padding-top: 50px;
+	padding-top: 150px;
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5) {
-    #test7 {
-        background-image:url(../Files/Background.JPG);
-        width:200px;
-        height:75px;
-    }
-}
-
 
 .landing-text {
 	clear: filter;
