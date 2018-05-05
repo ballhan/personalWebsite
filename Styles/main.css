@@ -15,6 +15,9 @@ nav {
 	width: 100%;
 	position: relative;
 	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	padding-top: 50px;
 }
 
