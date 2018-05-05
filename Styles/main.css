@@ -1,6 +1,6 @@
 html, body {
 	height: 100%
-	width:100%;
+	width: 100%;
 }
 
 nav {
@@ -14,6 +14,10 @@ nav {
 	height: 100vh;
 	width: 100%;
 	position: relative;
+	background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-size: cover;
 	padding-top: 50px;
 }
