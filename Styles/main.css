@@ -1,6 +1,40 @@
-.intro {
-	background-image: url("Files/Background.jpg"); 
-	background-repeat: no-repeat;
-	background-position: center; 
+html, body {
+	height: 100%
+	width:100%;
+}
+
+#home {
+	background: url(../Files/Background.JPG) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
 	background-size: cover;
+	padding-top: 50px;
+}
+
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.padding{
+	padding: 80px 0;
+}
+
+.padding img{
+	width: 100%
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	padding: 5% 5% 10% 5%;
+	color: white
 }
