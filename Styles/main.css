@@ -25,7 +25,6 @@ nav {
 }
 
 .landing-text {
-	clear: filter;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
@@ -86,8 +85,14 @@ nav {
 
 }
 
-footer {
-	width: 100%;
+.padding2 {
+	padding: 1% 0 1% 0;
 	background-color: #373737;
-	color: white
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120%;
+	font-weight: bold;
 }
+
+
+
