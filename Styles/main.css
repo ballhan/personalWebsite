@@ -1,7 +1,4 @@
-html, body {
-	height: 100%
-	width: 100%;
-}
+
 
 nav {
 	font-family: 'Amatic SC', cursive;
@@ -15,7 +12,7 @@ nav {
 
 #home {
 	background: url(../Files/Background.JPG) no-repeat center center fixed;
-	max-height: 100%;
+	max-height: auto;
 	width: auto;
 	
 	background-attachment: fixed;
