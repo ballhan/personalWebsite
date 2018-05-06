@@ -1,24 +1,26 @@
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  var scrollLink = $('.scroll');
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+  scrollLink.click(function(e)){
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    }, 500);
+    })
 
-      // Store hash
-      var hash = this.hash;
+  // Link switching
+  $(window).scroll(function(){
+    var scrollbarLocation = $(this).scrollTop();
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
+    scrollLink.each(function(){
+      var sectionOffset = $(this.hash).offset().top - 20;
+
+      if(sectionOffset <= scrollbarLocation){
+        $(this).parent().addClass('active');
+        $(this).parent().siblings(removeClass('active'))
+      }
+   })
+  })
+
+})
