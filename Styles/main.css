@@ -6,6 +6,7 @@ html, body {
 nav {
 	font-family: 'Amatic SC', cursive;
 	font-size: 120%;
+	font-weight: bold;
 }
 
 .bg-custom {
