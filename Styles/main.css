@@ -42,16 +42,16 @@ nav {
 }
 
 #intro {
-	background-color: #EFF2C0;
+	background-color: #CBDCC5;
 	font-family: 'Amatic SC', cursive;
 	color: black;
 	vertical-align: middle;
-	padding-top: 30px;
+	padding-top: 80px;
 	padding-bottom: 30px;
 }
 
-#background 
-	background-color: #ACAD94;
+#background {
+	background-color: #CBDCC5;
 	padding: 80px 0;
 	font-family: 'Pangolin', cursive;
 	color: black;
@@ -60,7 +60,7 @@ nav {
 }
 
 #sport {
-	background-color: #ACAD94;
+	background-color: #CBDCC5;
 	padding: 80px 0;
 	font-family: 'Pangolin', cursive;
 	color: black;
@@ -69,7 +69,7 @@ nav {
 }
 
 #gym {
-	background-color: #ACAD94;
+	background-color: #CBDCC5;
 	padding: 80px 0;
 	font-family: 'Pangolin', cursive;
 	color: black;
@@ -78,7 +78,7 @@ nav {
 }
 
 #starbucks {
-	background-color: #ACAD94;
+	background-color: #CBDCC5;
 	padding: 80px 0;
 	font-family: 'Pangolin', cursive;
 	color: black;
@@ -87,7 +87,7 @@ nav {
 }
 
 #club {
-	background-color: #ACAD94;
+	background-color: #CBDCC5;
 	padding: 80px 0;
 	font-family: 'Pangolin', cursive;
 	color: black;
