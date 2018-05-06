@@ -8,6 +8,10 @@ nav {
 	font-size: 120%;
 }
 
+.bg-custom {
+    background-color: #373737;
+}
+
 #home {
 	background: url(../Files/Background.JPG) no-repeat center center fixed;
 	display: table;
@@ -61,9 +65,28 @@ nav {
 	font-weight: 100;
 }
 
+#About Me {
+	background-color: pink;
+}
+
+.sport {
+
+}
+
+.gym {
+
+}
+
+.starbucks {
+
+}
+
+.club {
+
+}
+
 footer {
 	width: 100%;
-	background-color: black;
-	padding: 5% 5% 10% 5%;
+	background-color: #373737;
 	color: white
 }
