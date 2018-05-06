@@ -42,50 +42,69 @@ nav {
 	font-weight: 700;
 }
 
-.intro {
+#intro {
+	background-color: #EFF2C0;
 	font-family: 'Amatic SC', cursive;
 	color: black;
-	padding-top: 100px;
-	font-size: 300%;
-	font-weight: 700;
+	vertical-align: middle;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-.padding {
+#background {
+	background-color: #ACAD94;
 	padding: 80px 0;
-}
-
-.padding img {
-	width: 100%
-}
-
-.lead {
 	font-family: 'Pangolin', cursive;
 	color: black;
 	font-size: 150%;
 	font-weight: 100;
 }
 
-#About Me {
-	background-color: pink;
+#sport {
+	background-color: #A52422;
+	padding: 80px 0;
+	font-family: 'Pangolin', cursive;
+	color: black;
+	font-size: 150%;
+	font-weight: 100;
 }
 
-.sport {
-
+#gym {
+	background-color: #E1B07E;
+	padding: 80px 0;
+	font-family: 'Pangolin', cursive;
+	color: black;
+	font-size: 150%;
+	font-weight: 100;
 }
 
-.gym {
-
+#starbucks {
+	background-color: #E1B07E;
+	padding: 80px 0;
+	font-family: 'Pangolin', cursive;
+	color: black;
+	font-size: 150%;
+	font-weight: 100;
 }
 
-.starbucks {
-
+#club {
+	background-color: #E1B07E;
+	padding: 80px 0;
+	font-family: 'Pangolin', cursive;
+	color: black;
+	font-size: 150%;
+	font-weight: 100;
 }
 
-.club {
-
+.padding img {
+	width: 100%
 }
 
-.padding2 {
+
+
+
+
+#contact_me {
 	padding: 2% 0 1% 0;
 	background-color: #373737;
 	color: white;
