@@ -1,14 +1,15 @@
-$(document).ready(function() {
-	// navigation click actions	
+/* $(document).ready(function() {
+	
 	$('.scroll').on('click', function(event){
 		event.preventDefault();
 		var sectionID = $(this).attr("href");
 		scrollToID('#' + sectionID);
 	});
 	
-	// mobile nav toggle
-	$('#nav-toggler').on('click', function (event) {
+	
+	$('navbarNavAltMarkup').on('click', function (event) {
 		event.preventDefault();
-		$('#main-nav').toggleClass("open");
+		$('nav').toggleClass("open");
 	});
-});
+})
+*/
