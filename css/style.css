@@ -158,6 +158,11 @@ figure {
 	width: 100%;
 }
 
+#gallery {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 footer {
 	width: 100%;
 	background-color: #373737;
