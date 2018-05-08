@@ -94,6 +94,17 @@ section {
 	padding-bottom: 20px;
 }
 
+.intro {
+	background-color: #C4CAD0;
+	font-family: 'Pangolin', cursive;
+	font-weight: bold;
+	font-size: 300%;
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
 .coffeeintro {
 	background-color: #C4CAD0;
 	font-family: 'Pangolin', cursive;
