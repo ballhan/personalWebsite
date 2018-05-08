@@ -12,7 +12,7 @@
 }
 
 .navbar-brand {
-	color: #FFF;
+	font-color: #FFF;
 }
 
 .navbar-default .navbar-nav li a {
@@ -67,12 +67,12 @@ section {
 
 .landing-text h1 {
 	font-size: 650%;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .landing-text h2 {
 	font-size: 350%;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 #intro {
@@ -80,8 +80,8 @@ section {
 	font-family: 'Amatic SC', cursive;
 	color: black;
 	vertical-align: middle;
-	padding-top: 80px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 figure {
@@ -123,15 +123,15 @@ figure {
 footer {
 	width: 100%;
 	background-color: #373737;
-	padding: 1% 1% 1% 1%;
+	
 	color: #FFF;
 	font-family: 'Amatic SC', cursive;
 	font-weight: bold;
 }
 
 .fa {
-	padding: 15px
-	font-size: 40px;
+	padding: 10px;
+	font-size: 25px;
 	color: #FFF;
 }
 
@@ -140,6 +140,6 @@ footer {
 	text-decoration: none;
 }
 
-.icon {
-	max-width: 200px;
+#copyright {
+	padding: 1%;
 }
