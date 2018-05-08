@@ -23,10 +23,9 @@
 	color: #D5D5D5;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-	border-color: #373737;
+.navbar-default {
+  border-color: transparent;
 }
-
 
 
 section {
