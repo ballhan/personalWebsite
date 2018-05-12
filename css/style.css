@@ -3,6 +3,7 @@
 	width: 100%;
 }
 
+/* NAVBAR */
 .navbar {
 	background-color: #373737;
 	font-family: 'Amatic SC', cursive;
@@ -31,7 +32,7 @@
   border-color: transparent;
 }
 
-
+/* BACKGROUND */
 section {
  	position: relative;
  	width: 100%;
@@ -84,41 +85,6 @@ section {
 	font-weight: bold;
 }
 
-#intro {
-	background-color: #C4CAD0;
-	font-family: 'Pangolin', cursive;
-	font-weight: bold;
-	font-size: 300%;
-	color: black;
-	padding-top: 50px;
-	padding-bottom: 20px;
-}
-
-.intro {
-	background-color: #C4CAD0;
-	font-family: 'Pangolin', cursive;
-	font-weight: bold;
-	font-size: 300%;
-	color: black;
-	padding-top: 50px;
-	padding-bottom: 20px;
-}
-
-
-.coffeeintro {
-	background-color: #C4CAD0;
-	font-family: 'Pangolin', cursive;
-	font-weight: bold;
-	font-size: 300%;
-	color: black;
-	padding-top: 50px;
-	padding-bottom: 20px;
-}
-
-#coffee {
-	background-color: #C4CAD0;
-}
-
 figure {
 	position: relative;
 	width: 100%;
@@ -149,10 +115,31 @@ figure {
 	will-change: transform;
 }
 
-.padding {
+/* OTHER */
+.intro {
+	background-color: #C4CAD0;
+	font-family: 'Pangolin', cursive;
+	font-weight: bold;
+	font-size: 300%;
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#about {
+	background-color: #C4CAD0;
+}
+
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
 	padding: 50px 0;
 	font-family: 'Pangolin', cursive;
-	background-color: #C4CAD0;
+}
+
+.container img {
+	width: 100%;
 }
 
 #canadaimage {
@@ -163,21 +150,13 @@ figure {
     margin-right: auto;
 }
 
-.padding img {
-	width: 100%;
-}
-
 #gymbutton {
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#gallery {
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
+/* FOOTER + CONTACT */
 footer {
 	width: 100%;
 	background-color: #373737;
@@ -201,6 +180,3 @@ footer {
 	padding: 1%;
 }
 
-#sorry {
-	padding: 50px;
-}
