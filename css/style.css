@@ -162,6 +162,10 @@ figure {
     margin-right: auto;
 }
 
+#soccerimage {
+	border-radius: 10px;
+}
+
 #gymbutton {
 	display: block;
     margin-left: auto;
