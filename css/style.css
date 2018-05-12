@@ -116,19 +116,30 @@ figure {
 }
 
 /* MAIN */
-.intro {
-	background-color: #C4CAD0;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 400%;
+.port_intro {
+	background-color: #FFF;
+	font-family: 'Pangolin', cursive;
 	color: black;
+	font-weight: bold;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.about_intro {
+	background-color: #C4CAD0;
+	font-family: 'Pangolin', cursive;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 80px;
 	padding-bottom: 20px;
 }
 
 #portfolio {
 	background-color: #FFF;
 }
+
 
 #about {
 	background-color: #C4CAD0;
