@@ -144,13 +144,13 @@ figure {
 }
 
 .logoimage {
-	padding: 40px 0 0 25px ;
+	padding: 80px 0 0 0;
 	width: 400px;
-	height: 400px;
+	height: auto;
 }
 
 .portcontainer {
-	padding: 20px 15% 20px 15%;
+	padding: 20px 15% 30px 15%;
 	font-family: 'Comfortaa', cursive;
 }
 
