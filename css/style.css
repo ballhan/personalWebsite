@@ -51,7 +51,7 @@ section {
 
 #home {
 	padding: 100px;
-	background-image: url('../Assets/Background.jpg');
+	background-image: url('../Assets/Background3.jpg');
  	position: fixed;
  	display: table;
  	top: 0;
@@ -176,11 +176,6 @@ figure {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-#canadaimage {
-	width: 70%;
-	height: 70%;
 }
 
 #soccerimage {
