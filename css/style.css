@@ -178,6 +178,12 @@ figure {
     margin-right: auto;
 }
 
+.videocontainer {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
 #soccerimage {
 	border-radius: 10px;
 }
