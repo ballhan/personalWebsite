@@ -166,6 +166,30 @@ figure {
     margin-top: 20px;
 }
 
+.skill {
+	padding-left: 25%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: white;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
 .aboutcontainer img {
 	width: 100%;
 	display: block;
