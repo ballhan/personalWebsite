@@ -50,25 +50,35 @@
 <div id="portfolio">
 
     <div>
-       	<div class="port_intro">
+       	<div class="port_intro" id="skill">
     		<h1>Skills</h1>
     	</div>
             <ul class="skill">
-                <li>HTML <br />
-                    <progress min="0" max="100" value="80"></progress>
+                <li class="skillList">HTML
+                    <div class="myProgress">
+  						<div id="Bar1" class="myBar"></div>
+					</div> 
                 </li>
-                <li>CSS <br />
-                    <progress min="0" max="100" value="80"></progress>
+                <li class="skillList">CSS 
+                    <div class="myProgress">
+  						<div id="Bar2" class="myBar"></div>
+					</div> 
                 </li>
-                <li>JavaScript <br />
-                    <progress min="0" max="100" value="60"></progress>
+                <li class="skillList">JavaScript 
+                    <div class="myProgress">
+  						<div id="Bar3" class="myBar"></div>
+					</div>
                 </li>
-                <li>Python <br />
-                    <progress min="0" max="100" value="60"></progress>
+                <li class="skillList">Python 
+                    <div class="myProgress">
+  						<div id="Bar4" class="myBar"></div>
+					</div>
                 </li>
-  				<li>Debug <br />
-                    <progress min="0" max="100" value="90"></progress>
-                </li>
+  				<li class="skillList">Debug
+                    <div class="myProgress">
+  						<div id="Bar5" class="myBar"></div>
+					</div>
+				</li>
             </ul>
     </div>
 
@@ -441,6 +451,19 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/scrolling.js"></script>
 <script src="js/collapse.js"></script>
+<script src="js/progress.js"></script>
+<script type="text/javascript">
+	$(function () {
+    // Handler for .ready() called.
+    if ($("#skill").is(":visible")) {
+        move(85, 'Bar1');
+		move(80, 'Bar2');
+		move(70, 'Bar3');
+		move(60, 'Bar4');
+		move(90, 'Bar5');        
+    }
+});
+</script>
 
 
 </body>
