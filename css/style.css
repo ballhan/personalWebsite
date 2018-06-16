@@ -173,6 +173,10 @@ figure {
 	font-weight: bold;
 }
 
+.skillList {
+	padding-bottom: 15px;
+}
+
 .myProgress {
     width: 70%;
     background-color: #FFFFFF;
@@ -182,6 +186,7 @@ figure {
     width: 0%;
     height: 30px;
     background-color: #3fb6b2;
+
 }
 
 .aboutcontainer img {
