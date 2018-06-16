@@ -127,7 +127,7 @@ figure {
 
 .about_intro {
 	background-color: #D7DFE7;
-	font-family: 'Pangolin', cursive;
+	font-family: 'Comfortaa', cursive;
 	color: black;
 	font-weight: bold;
 	text-align: center;
@@ -194,6 +194,8 @@ figure {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #soccerimage {
@@ -222,6 +224,7 @@ figure {
 .gallery img {
     border-radius: 10px;
 }
+
 
 /* FOOTER + CONTACT */
 footer {
