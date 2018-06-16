@@ -54,21 +54,36 @@
     		<h1>Skills</h1>
     	</div>
             <ul class="skill">
-                <li>HTML <br />
-                    <progress min="0" max="100" value="80"></progress>
+                <li>HTML
+                    <div class="myProgress">
+  						<div id="Bar1" class="myBar"></div>
+					</div>
+					<button onclick="move(80, 'Bar1')">Click Me</button> 
                 </li>
-                <li>CSS <br />
-                    <progress min="0" max="100" value="80"></progress>
+                <li>CSS 
+                    <div class="myProgress">
+  						<div id="Bar2" class="myBar"></div>
+					</div>
+					<button onclick="move(80, 'Bar2')">Click Me</button>      
                 </li>
-                <li>JavaScript <br />
-                    <progress min="0" max="100" value="60"></progress>
+                <li>JavaScript 
+                    <div class="myProgress">
+  						<div id="Bar3" class="myBar"></div>
+					</div>
+					<button onclick="move(60, 'Bar3')">Click Me</button> 
                 </li>
-                <li>Python <br />
-                    <progress min="0" max="100" value="60"></progress>
+                <li>Python 
+                    <div class="myProgress">
+  						<div id="Bar4" class="myBar"></div>
+					</div>
+					<button onclick="move(60, 'Bar4')">Click Me</button> 
                 </li>
-  				<li>Debug <br />
-                    <progress min="0" max="100" value="90"></progress>
-                </li>
+  				<li>Debug
+                    <div class="myProgress">
+  						<div id="Bar5" class="myBar"></div>
+					</div>
+					<button onclick="move(90, 'Bar5')">Click Me</button>           	
+				</li>
             </ul>
     </div>
 
@@ -441,6 +456,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/scrolling.js"></script>
 <script src="js/collapse.js"></script>
+<script src="js/progress.js"></script>
+
 
 
 </body>

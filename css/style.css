@@ -173,21 +173,15 @@ figure {
 	font-weight: bold;
 }
 
-progress {
+.myProgress {
     width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
+    background-color: #FFFFFF;
 }
-progress::-webkit-progress-bar {
-    background: white;
-}
-progress::-webkit-progress-value {
-    background: #3fb6b2;
-} 
-progress::-moz-progress-bar {
-    color: #3fb6b2;
-    background: #efefef;
+
+.myBar {
+    width: 0%;
+    height: 30px;
+    background-color: #3fb6b2;
 }
 
 .aboutcontainer img {
