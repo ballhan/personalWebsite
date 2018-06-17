@@ -175,6 +175,7 @@ figure {
 
 .skillList {
 	padding-bottom: 15px;
+	list-style: none;
 }
 
 .myProgress {
