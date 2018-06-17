@@ -115,18 +115,9 @@ figure {
 	will-change: transform;
 }
 
-/* MAIN */
+/* PORT */
 .port_intro {
 	background-color: #E5E7E9;
-	font-family: 'Comfortaa', cursive;
-	color: black;
-	font-weight: bold;
-	text-align: center;
-	padding-top: 80px;
-}
-
-.about_intro {
-	background-color: #F2F3F4;
 	font-family: 'Comfortaa', cursive;
 	color: black;
 	font-weight: bold;
@@ -138,11 +129,6 @@ figure {
 	background-color: #E5E7E9;
 }
 
-
-#about {
-	background-color: #F2F3F4;
-}
-
 .portcontainer {
 	padding: 20px 15% 30px 15%;
 	font-family: 'Comfortaa', cursive;
@@ -150,11 +136,6 @@ figure {
 
 .portcontainer ul {
 	padding: 0;
-}
-
-.aboutcontainer {
-	padding: 50px 15% 60px 15%;
-	font-family: 'Pangolin', cursive;
 }
 
 .portcontainer img {
@@ -165,6 +146,7 @@ figure {
     margin-right: auto;
     margin-top: 20px;
 }
+
 
 .skill {
 	padding-left: 25%;
@@ -189,6 +171,28 @@ figure {
     background-color: #3fb6b2;
 
 }
+
+
+/* ABOUT*/
+
+.about_intro {
+	background-color: #F2F3F4;
+	font-family: 'Comfortaa', cursive;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#about {
+	background-color: #F2F3F4;
+}
+
+.aboutcontainer {
+	padding: 50px 15% 60px 15%;
+	font-family: 'Pangolin', cursive;
+}
+
 
 .aboutcontainer img {
 	width: 100%;
@@ -222,6 +226,42 @@ figure {
     border-radius: 10px;
 }
 
+
+/*CONTACT */
+.contact_intro {
+	background-color: #DFDDDE;
+	font-family: 'Comfortaa', cursive;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+.contact {
+	background-color: #DFDDDE;
+}
+
+textarea {
+    height: 100px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #FFFFFF;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+.submit{
+	width: 30%;
+	margin: 0 30% 60px 30%;
+}
 
 /* FOOTER + CONTACT */
 footer {
