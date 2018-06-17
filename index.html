@@ -465,17 +465,17 @@
 <script src="js/scrolling.js"></script>
 <script src="js/collapse.js"></script>
 <script src="js/progress.js"></script>
+<script src="js/waypoints.js"></script>
 <script type="text/javascript">
-	$(function () {
-    // Handler for .ready() called.
-    if ($("#skill").is(":visible")) {
-        move(85, 'Bar1');
-		move(80, 'Bar2');
-		move(70, 'Bar3');
-		move(60, 'Bar4');
-		move(90, 'Bar5');        
-    }
-});
+	$(document).ready(function() {
+		$('#skill').waypoint(function() {
+     		move(85, 'Bar1');
+			move(80, 'Bar2');
+			move(70, 'Bar3');
+			move(60, 'Bar4');
+			move(90, 'Bar5');        
+	});
+	});
 </script>
 
 
