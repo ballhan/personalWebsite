@@ -117,7 +117,7 @@ figure {
 
 /* MAIN */
 .port_intro {
-	background-color: #EBEFF3;
+	background-color: #E5E7E9;
 	font-family: 'Comfortaa', cursive;
 	color: black;
 	font-weight: bold;
@@ -126,7 +126,7 @@ figure {
 }
 
 .about_intro {
-	background-color: #D7DFE7;
+	background-color: #F2F3F4;
 	font-family: 'Comfortaa', cursive;
 	color: black;
 	font-weight: bold;
@@ -135,12 +135,12 @@ figure {
 }
 
 #portfolio {
-	background-color: #EBEFF3;
+	background-color: #E5E7E9;
 }
 
 
 #about {
-	background-color: #D7DFE7;
+	background-color: #F2F3F4;
 }
 
 .portcontainer {
