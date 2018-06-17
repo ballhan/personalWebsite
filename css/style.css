@@ -202,6 +202,11 @@ figure {
     border-radius: 10px;
 }
 
+.video {
+    display: block;
+    margin: 30px 5% 0 5%;
+    border: 3px solid black;
+}
 
 /* COFFEE */
 .gallery {
