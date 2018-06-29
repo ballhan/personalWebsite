@@ -252,14 +252,14 @@ textarea {
 }
 
 input, textarea {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 11pt;
     padding: 15px 10px 10px;
     border: 1px solid #cecece;
     background-color: #FFFFFF;
     color: #787575;
     border-radius: 5px;
-    width: 70%;
+    width: 55%;
     outline: none;
 }
 
