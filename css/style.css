@@ -28,7 +28,12 @@
   border-color: transparent;
 }
 
-
+.active a {
+	font-size: 150%;
+	font-weight: bold;
+	background-color: #373737;
+	color:#FFF;
+}
 
 /* BACKGROUND */
 section {
