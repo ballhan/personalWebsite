@@ -17,3 +17,15 @@ function move(length, id) {
         }
     }
 }
+
+$(document).ready(function() {
+  $('#skill').waypoint(function() {
+    move(85, 'Html');
+    move(80, 'Css');
+    move(80, 'Bootstrap');
+    move(60, 'JavaScript');
+    move(50, 'Python');
+    move(30, 'Angular');    
+    move(30, 'ReactNative');                
+  });
+});
