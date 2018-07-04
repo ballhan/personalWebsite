@@ -21,15 +21,15 @@
 
 .navbar-default .navbar-nav li a:hover {
 	color: #FFF;
-	font-size: 150%;
+	font-size: 130%;
 }
 
 .navbar-default {
   border-color: transparent;
 }
 
-.active a {
-	font-size: 150%;
+#navbar-collapse-main .active a {
+	font-size: 130%;
 	font-weight: bold;
 	background-color: #373737;
 	color:#FFF;
