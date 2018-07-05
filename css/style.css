@@ -9,23 +9,21 @@
 	font-family: 'Amatic SC', cursive;
 	font-size: 1.5em;
 	font-weight: bold;
+	border-color: transparent;
 }
 
-.navbar-default .navbar-brand {
+.navbar .navbar-brand {
   color: #FFF;
 }
 
-.navbar-default .navbar-nav li a {
+.navbar .navbar-nav li a {
 	color: #D5D5D5;
 }
 
-.navbar-default .navbar-nav li a:hover {
+.navbar .navbar-nav li a:hover {
+	background-color: #373737;
 	color: #FFF;
 	font-size: 130%;
-}
-
-.navbar-default {
-  border-color: transparent;
 }
 
 #navbar-collapse-main .active a {
