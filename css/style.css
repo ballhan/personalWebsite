@@ -251,13 +251,13 @@ figure {
 }
 
 textarea {
-    height: 100px;
+    height: 120px;
 }
 
 input, textarea {
     margin-bottom: 5px;
     font-size: 11pt;
-    padding: 15px 10px 10px;
+    padding: 15px 10px 10px 10px;
     border: 1px solid #cecece;
     background-color: #FFFFFF;
     color: #787575;
@@ -267,8 +267,8 @@ input, textarea {
 }
 
 .submit{
-	width: 30%;
-	margin: 0 30% 60px 30%;
+	width: 20%;
+	margin: 0 40% 75px 40%;
 }
 
 /* FOOTER + CONTACT */
