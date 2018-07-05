@@ -119,22 +119,20 @@ figure {
 }
 
 /* PORT */
-.port_intro {
+#portfolio {
 	background-color: #E5E7E9;
 	font-family: 'Comfortaa', cursive;
+}
+
+.port_intro {
 	color: black;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 80px;
 }
 
-#portfolio {
-	background-color: #E5E7E9;
-}
-
 .portcontainer {
-	padding: 20px 15% 30px 15%;
-	font-family: 'Comfortaa', cursive;
+	padding: 20px 20% 30px 20%;
 }
 
 .portcontainer ul {
@@ -153,7 +151,6 @@ figure {
 
 .skill {
 	padding-left: 25%;
-	font-family: 'Comfortaa', cursive;
 	font-size: 120%;
 	font-weight: bold;
 }
@@ -172,27 +169,25 @@ figure {
     width: 0%;
     height: 20px;
     background-color: #3fb6b2;
-
 }
 
 
 /* ABOUT*/
 
-.about_intro {
+#about {
 	background-color: #F2F3F4;
 	font-family: 'Comfortaa', cursive;
+}
+
+.about_intro {
 	color: black;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 80px;
 }
 
-#about {
-	background-color: #F2F3F4;
-}
-
 .aboutcontainer {
-	padding: 60px 15% 60px 15%;
+	padding: 70px 20% 70px 20%;
 	font-family: 'Pangolin', cursive;
 }
 
