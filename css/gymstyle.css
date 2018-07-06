@@ -249,16 +249,17 @@ figure {
 
 .dietcontainer {
 	padding: 20px 20% 30px 20%;
+	text-align: center;
 }
 
 .dietHeader {
-	text-align: center;
-	font-size: 70%;
+	font-size: 100%;
+	color: #003049;
 }
 
-.dietTarget {
-	text-align: center;
-	font-size: 50%;
+.dietHeader:hover {
+	font-size: 120%;
+	color: #2E556A;
 }
 
 .dietImage {
