@@ -16,6 +16,10 @@
   color: #FFF;
 }
 
+.navbar .navbar-brand:hover {
+  color: #FFF;
+}
+
 .navbar .navbar-nav li a {
 	color: #D5D5D5;
 }
@@ -84,11 +88,6 @@ section {
 
 .landing-text h1 {
 	font-size: 650%;
-	font-weight: bold;
-}
-
-.landing-text h2 {
-	font-size: 350%;
 	font-weight: bold;
 }
 

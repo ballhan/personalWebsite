@@ -16,6 +16,10 @@
   color: #FFF;
 }
 
+.navbar .navbar-brand:hover {
+  color: #FFF;
+}
+
 .navbar .navbar-nav li a {
 	color: #D5D5D5;
 }
@@ -75,7 +79,7 @@ section {
 
 .landing-text {
 	font-family: 'Amatic SC', cursive;
-	color: white;
+	color: #FFF;
 	z-index: 100;
 	display: table-cell;
 	text-align: center;
