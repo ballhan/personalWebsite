@@ -235,6 +235,43 @@ figure {
 }
 
 /*RESOURCE*/
+#diet {
+	background-color: #FDE7D0;
+	font-family: 'Comfortaa', cursive;
+}
+
+.diet_intro {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.dietcontainer {
+	padding: 20px 20% 30px 20%;
+}
+
+.dietHeader {
+	text-align: center;
+	font-size: 70%;
+}
+
+.dietTarget {
+	text-align: center;
+	font-size: 50%;
+}
+
+.dietImage {
+	width: 60%;
+	height: 60%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*RESOURCE*/
 #resource {
 	background-color: #FDE7D0;
 	font-family: 'Comfortaa', cursive;
@@ -251,7 +288,7 @@ figure {
 	padding: 20px 20% 30px 20%;
 }
 
-.resourcecontainer h3 {
+.resourcecontainer h4 {
 	text-align: center;
 }
 
