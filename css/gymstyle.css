@@ -1,0 +1,65 @@
+﻿html, body {
+	height:100%;
+	width: 100%;
+}
+
+/* NAVBAR */
+.navbar {
+	background-color: #373737;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+	border-color: transparent;
+}
+
+.navbar .navbar-brand {
+  color: #FFF;
+}
+
+.navbar .navbar-nav li a {
+	color: #D5D5D5;
+}
+
+.navbar .navbar-nav li a:hover {
+	background-color: #373737;
+	color: #FFF;
+	font-size: 130%;
+}
+
+.navbar .navbar-nav li a:focus {
+	background-color: #373737;
+	color: #FFF;
+	font-size: 130%;
+}
+
+#navbar-collapse-main .active a {
+	font-size: 130%;
+	font-weight: bold;
+	background-color: #373737;
+	color:#FFF;
+}
+
+
+/* FOOTER + CONTACT */
+footer {
+	width: 100%;
+	background-color: #373737;
+	color: #FFF;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+}
+
+.fa {
+	padding: 0 5px 0 5px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+#sorry {
+	padding: 50px;
+}
