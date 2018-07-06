@@ -5,7 +5,7 @@
 
 /* NAVBAR */
 .navbar {
-	background-color: #373737;
+	background-color: #F08700;
 	font-family: 'Amatic SC', cursive;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -21,13 +21,13 @@
 }
 
 .navbar .navbar-nav li a:hover {
-	background-color: #373737;
+	background-color: #F08700;
 	color: #FFF;
 	font-size: 130%;
 }
 
 .navbar .navbar-nav li a:focus {
-	background-color: #373737;
+	background-color: #F08700;
 	color: #FFF;
 	font-size: 130%;
 }
@@ -35,15 +35,196 @@
 #navbar-collapse-main .active a {
 	font-size: 130%;
 	font-weight: bold;
-	background-color: #373737;
+	background-color: #F08700;
 	color:#FFF;
 }
 
+/* BACKGROUND */
+section {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
 
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#home {
+	padding: 100px;
+	background-image: url('../Assets/gymBackground.jpg');
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+
+.landing-text {
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 650%;
+	font-weight: bold;
+}
+
+/* ROUTINE */
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.text {
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.text h1 {
+	font-size: 650%;
+	font-weight: bold;
+}
+
+#mondayLeg {
+	background-image: url('../Assets/Background2.JPG');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+
+#tuesdayArm {
+	background-image: url('../Assets/Background.JPG');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+
+#wednesdayShoulder {
+	background-image: url('../Assets/Background2.JPG');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+
+#thursdayCardio {
+	background-image: url('../Assets/Background.JPG');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+
+#fridayBack {
+	background-image: url('../Assets/Background2.JPG');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+
+#saturdayCore {
+	background-image: url('../Assets/Background.JPG');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+
+#sundayChest {
+	background-image: url('../Assets/Background2.JPG');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
 /* FOOTER + CONTACT */
 footer {
 	width: 100%;
-	background-color: #373737;
+	background-color: #F08700;
 	color: #FFF;
 	font-family: 'Amatic SC', cursive;
 	font-weight: bold;
@@ -58,8 +239,4 @@ footer {
 .fa:hover {
 	color: #D5D5D5;
 	text-decoration: none;
-}
-
-#sorry {
-	padding: 50px;
 }
