@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Gym Page</title>
+  <title>GYM</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet">  
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">  
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="index.html">Bo Han Chen</a>
-		</div>
-		<div class="collapse navbar-collapse" id="navbar-collapse-main">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#top">Home</a></li>
-				<li><a href="#monday">Monday</a></li>
-				<li><a href="#tuesday">Tuesday</a></li>
-				<li><a href="#wednesday">Wednesday</a></li>
-				<li><a href="#thursday">Thursday</a></li>
-				<li><a href="#friday">Friday</a></li>
-				<li><a href="#saturday">Saturday</a></li>
-				<li><a href="#sunday">Sunday</a></li>
-			</ul>
-		</div>
-	</div>
+<nav class="navbar navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Bo Han Chen</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#monday">Monday</a></li>
+        <li><a href="#tuesday">Tuesday</a></li>
+        <li><a href="#wednesday">Wednesday</a></li>
+        <li><a href="#thursday">Thursday</a></li>
+        <li><a href="#friday">Friday</a></li>
+        <li><a href="#saturday">Saturday</a></li>
+        <li><a href="#sunday">Sunday</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
-
-<h1 id="sorry"> SORRY page still under construction, more pictures need to be taken</h1>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -139,74 +135,28 @@
   </a>
 </div>
 
-<div id="monday">
-	<div class="intro">
-    <h2 align="center">Monday - Leg</h2>
-	</div>
-</div>
-
-<div id="tuesday">
-	<div class="intro">
-    <h2 align="center">Tuesday - Arm</h2>
-	</div>
-</div>
-
-<div id="wednesday">
-	<div class="intro">
-    <h2 align="center">Wednesday - Shoulder</h2>
-	</div>
-</div>
-
-<div id="thursday">
-	<div class="intro">
-    <h2 align="center">Thursday - Cardio</h2>
-	</div>
-</div>
-
-<div id="friday">
-	<div class="intro">
-    <h2 align="center">Friday - Back</h2>
-	</div>
-</div>
-
-<div id="saturday">
-	<div class="intro">
-    <h2 align="center">Saturday - Cardio</h2>
-	</div>
-</div>
-
-<div id="sunday">
-	<div class="intro">
-    <h2 align="center">Sunday - Chest</h2>
-	</div>
-</div>
-
-
-
-<footer class="container-fluid text-center" id="contact_me">
-	<div class="row">
-		<div class="col-sm-6">
-			<h3>Contact Me: 
-			<a href="https://github.com/ballhan" class="fa fa-github"></a>
-			<a href="https://www.linkedin.com/in/bohan-chen-355501153/" class="fa fa-linkedin"></a>
-			<a href="mailto:chenbohan81@gmail.com" class="fa fa-envelope"></a>
-			</h3>
-		</div>
-		<div class="col-sm-6 text-center" id="copyright">
-			<h3>Made with <strong>LOVE</strong> by Bo Han Chen</h3>
-		</div>
-	</div>
+<footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>
+      <a href="https://github.com/ballhan" class="fa fa-github"></a>
+      <a href="https://www.linkedin.com/in/bohan-chen-355501153/" class="fa fa-linkedin"></a>
+      <a href="mailto:chenbohan81@gmail.com" class="fa fa-envelope"></a>
+      </h3>
+    </div>
+    <div class="col-sm-6 text-center" id="copyright">
+      <h3>Made with <strong>LOVE</strong> by Bo Han Chen</h3>
+    </div>
+  </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/scrolling.js"></script>
-<script type="text/javascript">
-  $(document).on('click','.navbar-collapse.in',function(e) {
-  if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
-        $(this).collapse('hide');
-   }
-   });
-</script>
+<script src="js/collapse.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/active.js"></script>
+<script src="js/inview.js"></script>
+
 </body>
 </html>
