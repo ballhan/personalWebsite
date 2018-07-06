@@ -236,7 +236,7 @@ figure {
 
 /*RESOURCE*/
 #diet {
-	background-color: #FDE7D0;
+	background-color: #FEF3DD;
 	font-family: 'Comfortaa', cursive;
 }
 
@@ -258,7 +258,6 @@ figure {
 }
 
 .dietHeader:hover {
-	font-size: 120%;
 	color: #2E556A;
 }
 
