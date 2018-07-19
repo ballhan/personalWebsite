@@ -20,6 +20,10 @@
   color: #FFF;
 }
 
+.navbar .navbar-brand:focus {
+  color: #FFF;
+}
+
 .navbar .navbar-nav li a {
 	color: #D5D5D5;
 }
