@@ -238,43 +238,6 @@ figure {
     border-radius: 10px;
 }
 
-
-/*CONTACT */
-.contact_intro {
-	background-color: #DFDDDE;
-	font-family: 'Comfortaa', cursive;
-	color: black;
-	font-weight: bold;
-	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 30px;
-}
-
-.contact {
-	background-color: #DFDDDE;
-}
-
-textarea {
-    height: 120px;
-}
-
-input, textarea {
-    margin-bottom: 5px;
-    font-size: 11pt;
-    padding: 15px 10px 10px 10px;
-    border: 1px solid #cecece;
-    background-color: #FFFFFF;
-    color: #787575;
-    border-radius: 5px;
-    width: 55%;
-    outline: none;
-}
-
-.submit{
-	width: 20%;
-	margin: 0 40% 75px 40%;
-}
-
 /* FOOTER + CONTACT */
 footer {
 	width: 100%;
