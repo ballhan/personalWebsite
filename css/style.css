@@ -31,20 +31,20 @@
 .navbar .navbar-nav li a:hover {
 	background-color: #373737;
 	color: #FFF;
-	font-size: 130%;
+	font-size: 120%;
 }
 
 .navbar .navbar-nav li a:focus {
 	background-color: #373737;
 	color: #FFF;
-	font-size: 130%;
+	font-size: 120%;
 }
 
 #navbar-collapse-main .active a {
-	font-size: 130%;
 	font-weight: bold;
 	background-color: #373737;
 	color:#FFF;
+	font-size: 120%;
 }
 
 /* BACKGROUND */
@@ -128,42 +128,23 @@ figure {
 /* PORT */
 #portfolio {
 	background-color: #E5E7E9;
-	font-family: 'Comfortaa', cursive;
 }
 
-.port_intro {
-	color: black;
-	font-weight: bold;
+.intro {
+	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	padding-top: 80px;
+	padding-bottom: 30px;
 }
-
-.portcontainer {
-	padding: 20px 20% 30px 20%;
-}
-
-.portcontainer ul {
-	padding: 0;
-}
-
-.portcontainer img {
-	width: 40%;
-	height: 40%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
 
 .skill {
 	padding-left: 25%;
-	font-size: 120%;
-	font-weight: bold;
 }
 
 .skillList {
 	padding-bottom: 15px;
+	font-family: 'Poor Story', cursive;
+	font-size: 140%;
 	list-style: none;
 }
 
@@ -178,23 +159,32 @@ figure {
     background-color: #3fb6b2;
 }
 
-
-/* ABOUT*/
-
-#about {
-	background-color: #F2F3F4;
-	font-family: 'Comfortaa', cursive;
+.portcontainer {
+	padding: 0px 20% 70px 20%;
+	font-family: 'Poor Story', cursive;
 }
 
-.about_intro {
-	color: black;
-	font-weight: bold;
-	text-align: center;
-	padding-top: 80px;
+.portcontainer ul {
+	padding: 0px;
+	font-size: 140%;
+}
+
+.portcontainer img {
+	width: 40%;
+	height: 40%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* ABOUT*/
+#about {
+	background-color: #F2F3F4;
 }
 
 .aboutcontainer {
-	padding: 70px 20% 70px 20%;
+	padding: 0px 20% 100px 20%;
 	font-family: 'Poor Story', cursive;
 }
 
@@ -240,22 +230,15 @@ figure {
 
 
 /*CONTACT */	
-.contact_intro {	
-	background-color: #DFDDDE;	
-	font-family: 'Comfortaa', cursive;	
-	color: black;	
-	font-weight: bold;	
-	text-align: center;	
-	padding-top: 80px;	
-	padding-bottom: 30px;	
-}	
- .contact {	
+#contact {	
 	background-color: #DFDDDE;	
 }	
- textarea {	
+
+textarea {	
     height: 120px;	
 }	
- input, textarea {	
+
+input, textarea {	
     margin-bottom: 5px;	
     font-size: 11pt;	
     padding: 15px 10px 10px 10px;	
@@ -266,7 +249,8 @@ figure {
     width: 55%;	
     outline: none;	
 }	
- .submit{	
+
+.submit{	
 	width: 20%;	
 	margin: 0 40% 75px 40%;	
 }
@@ -277,12 +261,10 @@ footer {
 	background-color: #373737;
 	color: #FFF;
 	font-family: 'Amatic SC', cursive;
-	font-weight: bold;
 }
 
 .fa {
 	padding: 0 8px 0 8px;
-	font-size: 25px;
 	color: #FFF;
 }
 
