@@ -83,7 +83,7 @@ section {
 
 .landing-text {
 	font-family: 'Amatic SC', cursive;
-	color: white;
+	color: #FFF;
 	z-index: 100;
 	display: table-cell;
 	text-align: center;
@@ -91,7 +91,7 @@ section {
 }
 
 .landing-text h1 {
-	font-size: 650%;
+	font-size: 700%;
 	font-weight: bold;
 }
 
@@ -130,8 +130,10 @@ figure {
 	background-color: #E5E7E9;
 }
 
-.intro {
+.intro h1 {
 	font-family: 'Amatic SC', cursive;
+	font-size: 300%;
+	font-weight: bold;
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 30px;
