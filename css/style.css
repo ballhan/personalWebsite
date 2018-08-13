@@ -130,13 +130,16 @@ figure {
 	background-color: #E5E7E9;
 }
 
-.intro h1 {
-	font-family: 'Amatic SC', cursive;
-	font-size: 300%;
-	font-weight: bold;
-	text-align: center;
+.intro {
 	padding-top: 80px;
 	padding-bottom: 30px;
+}
+
+.intro h1 {
+	font-size: 300%;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
 }
 
 .skill {
@@ -168,7 +171,7 @@ figure {
 
 .portcontainer ul {
 	padding: 0px;
-	font-size: 140%;
+	font-size: 20px;
 }
 
 .portcontainer img {
@@ -190,6 +193,9 @@ figure {
 	font-family: 'Poor Story', cursive;
 }
 
+.aboutcontainer p {
+	font-size: 20px;
+}
 
 .aboutcontainer img {
 	width: 100%;
