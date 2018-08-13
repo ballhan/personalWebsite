@@ -215,13 +215,12 @@ figure {
 
 /* COFFEE */
 .gallery {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 10% 0 10%;
 }
 
 .gallery .lightbox img {
-    width: 110%;
-    margin-bottom: 10px;
+    width: 100%;
+	margin-bottom: 10px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
