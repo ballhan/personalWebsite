@@ -23,13 +23,12 @@ $(function() {
   documentEl.on('scroll', function() {
     //console.log(isScrolledIntoView('#portfolio-indi'));
     if (isScrolledIntoView('#portfolio-indi')) {
-      move(85, 'Html');
-      move(80, 'Css');
-      move(80, 'Bootstrap');
-      move(60, 'JavaScript');
-      move(50, 'Python');
-      move(30, 'Angular');    
-      move(30, 'ReactNative');     
+      move(85, 'HTML/CSS/Bootstrap');
+      move(70, 'JavaScript');
+      move(70, 'Python');
+      move(70, 'C');
+      move(50, 'Angular');    
+      move(50, 'ReactNative');     
     };
   });
 });
