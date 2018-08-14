@@ -86,7 +86,7 @@
     	<h1>Experiences</h1>
     </div>
 
-	<div class="portcontainer">   
+	<div class="portcontainer temp-hide" id="experiences-kik">   
     	<div class="row">
 			<div class="col-sm-6">
 				<img src="Assets/Kik.png">
@@ -105,7 +105,7 @@
 		</div>
 	</div>
 
-	<div class="portcontainer">
+	<div class="portcontainer temp-hide" id="experiences-uwcsa">
 		<div class="row">
 			<div class="col-sm-6">
 				<img src="Assets/uwcsa logo.png">
@@ -122,7 +122,7 @@
 		</div>
 	</div>
 
-	<div class="portcontainer">
+	<div class="portcontainer temp-hide" id="experiences-monsheong">
 		<div class="row">
 			<div class="col-sm-6">
 				<img src="Assets/Monsheong.png">
@@ -154,13 +154,13 @@
     	<h1 id="about-indi">About me</h1>
     </div>
 
-	<div class="aboutcontainer">
+	<div class="aboutcontainer temp-hide" id="about-bro">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<img src="Assets/fact1.jpg">
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<p align="center" class="lead"></br>I moved to Canada from China when I was 16. </br></br>I have a younger brother, he moved to Canada a year after.</p>
+				<p><br>I moved to Canada from China when I was 16. <br><br>I have a younger brother, he moved to Canada a year after.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<img src="Assets/bro.jpg">
@@ -168,26 +168,26 @@
 		</div>
 	</div>
 
-	<div class="aboutcontainer">
+	<div class="aboutcontainer temp-hide" id="about-sport">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<p align="center" class="lead">I played rugby in high school only because I didn't make the soccer team. </br></br>It turned out to be one of the best things ever. Rugby is really character-buiilding.</p>
+				<p>I played rugby in high school only because I didn't make the soccer team. <br><br>It turned out to be one of the best things ever. Rugby is really character-buiilding.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<img src="Assets/Gym.png" id="soccerimage">
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<p align="center" class="lead">Unfortunately, I couldn't find time for team sports in university.</br></br> Weightlifting became my new passion. </br>
-				<a href="gym.html"><button type="button" class="btn btn-primary">View my GYM PAGE</button></a>
+				<p>Unfortunately, I couldn't find time for team sports in university.<br><br> Weightlifting became my new passion. <br>
+					<a href="gym.html"><button type="button" class="btn btn-primary">View my GYM PAGE</button></a>
 				</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="aboutcontainer">
+	<div class="aboutcontainer temp-hide" id="about-uwcsa">
 		<div class="row">
 			<div class="col-sm-6">
-				<p align="center" class="lead">I am the Events Coordinator at <strong>UWCSA</strong> (University of Waterloo Chinese Student Association). </br></br>My responsibility includes making and hosting events that provide quality leisure time for students.</p>
+				<p>I am the Events Coordinator at <strong>UWCSA</strong> (University of Waterloo Chinese Student Association). <br><br>My responsibility includes making and hosting events that provide quality leisure time for students.</p>
 			</div>
 			<div class="col-sm-6">
 				<img src="Assets/UWCSA.jpg">
@@ -195,19 +195,17 @@
 		</div>
 	</div>
 
-	<div class="aboutcontainer" id="latin">
-		<div>
-	    	<p align="center" class="lead"> My mom made me learn Latin dance for 6 YEARS!<br/></p>
-		</div>
+	<div class="aboutcontainer temp-hide" id="about-latin">
+		<p><br>My mom made me learn Latin dance for 6 YEARS!</p>
 		<div class="embed-responsive embed-responsive-16by9 video">
-  			<iframe src="https://www.youtube.com/embed/videoseries?list=PLKE-jUTjdUyby8Uya7qVA2k-7eRLdVmdW" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>		
-  		</div>
+			<iframe src="https://www.youtube.com/embed/videoseries?list=PLKE-jUTjdUyby8Uya7qVA2k-7eRLdVmdW" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>		
+		</div>
 	</div>
 
-	<div id="coffee">
-		<div class="aboutcontainer">
-	    	<p align="center" class="lead">I tried to try EVERY DRINK ON THE STARBUCKS MENU!
-	    	  <button id="about-indi2" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#starbucks" aria-expanded="false" aria-controls="collapseExample">CHECK MY FAVOURITES</button>
+	<div id="about-indi2">
+		<div class="aboutcontainer temp-hide" id="about-coffee">
+	    	<p>I tried to try EVERY DRINK ON THE STARBUCKS MENU! &ensp;
+	    	  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#starbucks" aria-expanded="false" aria-controls="collapseExample">CHECK MY FAVOURITES</button>
 	    	</p>
 		</div>
 			
@@ -434,6 +432,7 @@
 <script src="js/progress.js"></script>
 <script src="js/active.js"></script>
 <script src="js/inview.js"></script>
+<script src="js/fadein.js"></script>
 
 </body>
 </html>
