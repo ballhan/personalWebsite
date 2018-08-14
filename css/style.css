@@ -5,9 +5,13 @@
 
 /* Animation */
 .content-fade {
-	-moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+	-moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+
+.temp-hide {
+	opacity: 0;
 }
 
 @keyframes fadein {
