@@ -257,6 +257,10 @@ figure {
     border: 3px solid white;
 }
 
+#about-latin {
+	height: 300px;
+}
+
 .video iframe {
 	max-height: 200px;
 }
