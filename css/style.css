@@ -245,6 +245,7 @@ figure {
 
 .aboutcontainer p {
 	font-size: 20px;
+	text-align: center;
 }
 
 .aboutcontainer img, .video iframe {
@@ -254,6 +255,10 @@ figure {
     margin-right: auto;
     border-radius: 10px;
     border: 3px solid white;
+}
+
+.video iframe {
+	max-height: 200px;
 }
 
 /* COFFEE */
