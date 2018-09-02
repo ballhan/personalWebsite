@@ -198,8 +198,8 @@ figure {
 	text-align: center;
 }
 
-.aboutcontainer img, .video iframe {
-	width: 100%;
+.aboutcontainer img, iframe {
+	max-width: 300px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
