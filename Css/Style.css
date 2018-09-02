@@ -111,7 +111,7 @@ section {
  	height: 100%;
 }
 
-#home {
+#landingPicture {
 	padding: 100px;
 	background-image: url('../Assets/Background.jpg');
  	position: fixed;

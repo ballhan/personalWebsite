@@ -1,9 +1,9 @@
 $(function() {
   documentEl = $(document);
   documentEl.on('scroll', function() {
-    if (isScrolledIntoView('#top-indi')) {
+    if (isScrolledIntoView('#landingText')) {
         $(".nav").find(".active").removeClass("active");
-        $('#top-nav').parent().addClass("active");
+        $('#homeNav').parent().addClass("active");
     };
 
     if (isScrolledIntoView('#portfolio-indi')) {
