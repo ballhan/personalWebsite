@@ -230,39 +230,14 @@ figure {
 }
 
 
+.container {
+	padding-bottom: 100px;
+}
+
 /*CONTACT */	
 #contact {	
 	background-color: #DFDDDE;	
 }	
-
-textarea {	
-    height: 120px;	
-}	
-
-input, textarea {	
-    margin-bottom: 5px;	
-    font-size: 11pt;	
-    padding: 15px 10px 10px 10px;	
-    border: 1px solid #cecece;	
-    background-color: #FFFFFF;	
-    color: #787575;	
-    border-radius: 5px;	
-    width: 55%;	
-    outline: none;	
-}	
-
-.submit{	
-	width: 20%;	
-	margin: 0 40% 75px 40%;	
-}
-
-/* FOOTER + CONTACT */
-footer {
-	width: 100%;
-	background-color: #373737;
-	color: #FFF;
-	font-family: 'Amatic SC', cursive;
-}
 
 .fa {
 	padding: 0 8px 0 8px;
@@ -273,3 +248,12 @@ footer {
 	color: #D5D5D5;
 	text-decoration: none;
 }
+
+
+/* FOOTER */
+footer {
+	background-color: #373737;
+	color: #FFF;
+	font-family: 'Amatic SC', cursive;
+}
+
