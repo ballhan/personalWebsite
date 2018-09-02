@@ -230,46 +230,30 @@ figure {
 }
 
 
-/*CONTACT */	
-#contact {	
-	background-color: #DFDDDE;	
-}	
-
-textarea {	
-    height: 120px;	
-}	
-
-input, textarea {	
-    margin-bottom: 5px;	
-    font-size: 11pt;	
-    padding: 15px 10px 10px 10px;	
-    border: 1px solid #cecece;	
-    background-color: #FFFFFF;	
-    color: #787575;	
-    border-radius: 5px;	
-    width: 55%;	
-    outline: none;	
-}	
-
-.submit{	
-	width: 20%;	
-	margin: 0 40% 75px 40%;	
+.container {
+	padding-bottom: 100px;
+	text-align: center;
 }
 
-/* FOOTER + CONTACT */
+/*CONTACT */	
+#contact {	
+	background-color: #d9dadb;	
+}	
+
+#contact a {
+	padding: 0 5% 0 5%;
+	text-decoration: none;
+}
+
+#contactLogo img{
+	height: 100px;
+	width: auto;
+}
+
+/* FOOTER */
 footer {
-	width: 100%;
 	background-color: #373737;
 	color: #FFF;
 	font-family: 'Amatic SC', cursive;
 }
 
-.fa {
-	padding: 0 8px 0 8px;
-	color: #FFF;
-}
-
-.fa:hover {
-	color: #D5D5D5;
-	text-decoration: none;
-}
