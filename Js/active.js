@@ -3,7 +3,7 @@ $(function() {
   documentEl.on('scroll', function() {
     if (isScrolledIntoView('#top-indi')) {
         $(".nav").find(".active").removeClass("active");
-        $('#top-nav').parent().addClass("active");
+        $('#homeNav').parent().addClass("active");
     };
 
     if (isScrolledIntoView('#portfolio-indi')) {
