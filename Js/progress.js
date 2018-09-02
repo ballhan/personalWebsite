@@ -22,7 +22,7 @@ $(function() {
   documentEl = $(document);
   documentEl.on('scroll', function() {
     //console.log(isScrolledIntoView('#portfolio-indi'));
-    if (isScrolledIntoView('#portfolio-indi')) {
+    if (isScrolledIntoView('#skillTitle')) {
       move(85, 'HTML/CSS/Bootstrap');
       move(70, 'JavaScript');
       move(70, 'Python');
