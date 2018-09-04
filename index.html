@@ -27,10 +27,10 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse-main">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a id="homeNav" href="#landingPage">HOME</a></li>
-						<li><a id="portfolio-nav" href="#portfolio">PORTFOLIO</a></li>
-						<li><a id="about-nav" href="#about">ABOUT</a></li>
-						<li><a id="contact-nav" href="#contact">CONTACT</a></li>
+						<li><a href="#landingPage">HOME</a></li>
+						<li><a href="#portfolio">PORTFOLIO</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#contact">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -48,42 +48,53 @@
 
 		<div id="portfolio">
 		    <div class="intro" id="skill">
-		    	<h1 id="skillTitle">My Skills</h1>
+		    	<h1>My Skills</h1>
 		    </div>
-		    <div>
-		        <ul class="skill">
-		            <li class="skillList">HTML/CSS/Bootstrap
-		                <div class="myProgress">
-		  					<div id="HTML/CSS/Bootstrap" class="myBar"></div>
+
+		    <div class="row skill-container">
+		    	<div class="col-sm-6">
+		    		<h2 id="webSkill">Web</h2>
+					<li class="skill-list">HTML/CSS/Bootstrap
+		                <div class="skill-bar">
+		  					<div id="skillHtml" class="skill-progress"></div>
 						</div> 
 		            </li>
-		            <li class="skillList">JavaScript 
-		                <div class="myProgress">
-		  					<div id="JavaScript" class="myBar"></div>
+		            <li class="skill-list">JavaScript 
+		                <div class="skill-bar">
+		  					<div id="skillJs" class="skill-progress"></div>
 				 		</div>
 		            </li>
-		            <li class="skillList">Python 
-		                <div class="myProgress">
-		  					<div id="Python" class="myBar"></div>
-						</div>
-		            </li>
-		            <li class="skillList">C
-		                <div class="myProgress">
-		  					<div id="C" class="myBar"></div>
-						</div>
-		            </li>
-		  			<li class="skillList">Angular
-		                <div class="myProgress">
-		  					<div id="Angular" class="myBar"></div>
+
+		  			<li class="skill-list">Angular
+		                <div class="skill-bar">
+		  					<div id="skillAngular" class="skill-progress"></div>
 						</div>
 					</li>
-					<li class="skillList">React Native
-		                <div class="myProgress">
-		  					<div id="ReactNative" class="myBar"></div>
+					<li class="skill-list">Node.js
+		                <div class="skill-bar">
+		  					<div id="skillNode.js" class="skill-progress"></div>
 						</div>
 					</li>
-		        </ul>
-		    </div>
+				</div>
+				<div class="col-sm-6">
+					<h2 id="otherSkill">Other</h2>
+					<li class="skill-list">Python 
+		                <div class="skill-bar">
+		  					<div id="skillPython" class="skill-progress"></div>
+						</div>
+		            </li>
+		            <li class="skill-list">C++ 
+		                <div class="skill-bar">
+		  					<div id="skillC++" class="skill-progress"></div>
+						</div>
+		            </li>
+		            <li class="skill-list">C
+		                <div class="skill-bar">
+		  					<div id="skillC" class="skill-progress"></div>
+						</div>
+		            </li>
+				</div>
+			</div>
 
 			<div class="intro">
 		    	<h1>My Experiences</h1>
