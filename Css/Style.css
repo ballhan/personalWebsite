@@ -148,7 +148,7 @@ figure {
 }
 
 .skill-list {
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	font-size: 140%;
 	list-style: none;
 }
@@ -163,6 +163,12 @@ figure {
     width: 0%;
     height: 20px;
     background-color: #3FD6D2;
+}
+
+.skill-progress2 {
+    width: 0%;
+    height: 20px;
+    background-color: #9DC183;
 }
 
 /* Experience */
