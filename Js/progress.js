@@ -1,4 +1,4 @@
-function move(length, id) {
+function grow(length, id) {
   var element = document.getElementById(id);
   var pro = length - 1;
 
@@ -22,14 +22,17 @@ $(function() {
   documentEl = $(document);
   documentEl.on('scroll', function() {
     //console.log(isScrolledIntoView('#portfolio-indi'));
-    if (isScrolledIntoView('#skillTitle')) {
-      move(85, 'HTML/CSS/Bootstrap');
-      move(70, 'JavaScript');
-      move(70, 'Python');
-      move(70, 'C');
-      move(50, 'Angular');    
-      move(50, 'ReactNative');     
+    if (isScrolledIntoView('#webSkill')) {
+      grow(90, 'skillHtml');
+      grow(80, 'skillJs');
+      grow(70, 'skillAngular');
+      grow(60, 'skillNode.js');
+    };
+
+    if (isScrolledIntoView('#otherSkill')) {
+      grow(80, 'skillPython');
+      grow(70, 'skillC++');
+      grow(60, 'skillC');
     };
   });
 });
-
