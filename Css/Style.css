@@ -136,6 +136,10 @@ figure {
 	text-align: center;
 }
 
+.row {
+	width: 100%;
+}
+
 /* Portfolio */
 #portfolio {
 	background-color: #E5E7E9;
@@ -278,4 +282,3 @@ figure {
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 }
-
