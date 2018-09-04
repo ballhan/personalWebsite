@@ -124,24 +124,24 @@ figure {
 	will-change: transform;
 }
 
-
-/* PORT */
-#portfolio {
-	background-color: #E5E7E9;
-}
-
 .intro {
 	padding-top: 70px;
 	padding-bottom: 60px;
 }
 
 .intro h1 {
-	font-size: 300%;
+	font-size: 400%;
 	font-weight: bold;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 }
 
+/* Portfolio */
+#portfolio {
+	background-color: #E5E7E9;
+}
+
+/* Skill */
 .skill {
 	padding-left: 25%;
 }
@@ -164,17 +164,30 @@ figure {
     background-color: #3fb6b2;
 }
 
-.portcontainer {
+/* Experience */
+.experience-container {
 	padding: 0px 20% 70px 20%;
 	font-family: 'Poor Story', cursive;
 }
 
-.portcontainer ul {
+.experience-company {
+	color: green;
+}
+
+.experience-position {
+	color: #3C5AB4;
+}
+
+.experience-location {
+	color: grey;
+}
+
+.experience-duty {
 	padding: 0px;
 	font-size: 20px;
 }
 
-.portcontainer img {
+.experience-container img {
 	height: 180px;
 	width: auto;
 	display: block;
@@ -183,22 +196,22 @@ figure {
     margin-top: 20px;
 }
 
-/* ABOUT*/
+/* About */
 #about {
 	background-color: #F2F3F4;
 }
 
-.aboutcontainer {
+.about-container {
 	padding: 0px 20% 100px 20%;
 	font-family: 'Poor Story', cursive;
 }
 
-.aboutcontainer p {
+.about-content {
 	font-size: 20px;
 	text-align: center;
 }
 
-.aboutcontainer img, iframe {
+.about-container img, iframe {
 	max-width: 300px;
 	display: block;
     margin-left: auto;
@@ -207,7 +220,7 @@ figure {
     border: 3px solid white;
 }
 
-/* COFFEE */
+/* Coffee */
 .gallery {
     padding: 0 10% 0 10%;
 }
@@ -229,32 +242,30 @@ figure {
     border-radius: 10px;
 }
 
-
-.container {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	text-align: center;
-}
-
-/*CONTACT */	
+/* Contact */	
 #contact {	
 	background-color: #D9DADB;	
 }	
 
-#contact a {
-	padding: 0 5% 0 5%;
+.contact-container {
+	padding: 100px 20% 100px 20%;
+	text-align: center;
+}
+
+.contact-link {
 	text-decoration: none;
 }
 
-#contactLogo img{
+.contact-img {
 	height: 100px;
 	width: auto;
 }
 
-/* FOOTER */
-footer {
+/* Footer */
+#copyright {
 	background-color: #373737;
 	color: #FFF;
 	font-family: 'Amatic SC', cursive;
+	text-align: center;
 }
 
