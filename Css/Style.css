@@ -177,6 +177,14 @@ figure {
 	font-family: 'Poor Story', cursive;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="experience-container"] {
+        padding: 0px 7% 100px 7%;
+        font-family: 'Poor Story', cursive;
+    }
+}
+
 .experience-company {
 	color: green;
 }
@@ -195,7 +203,7 @@ figure {
 }
 
 .experience-container img {
-	height: 180px;
+	height: 200px;
 	width: auto;
 	display: block;
     margin-left: auto;
@@ -213,14 +221,22 @@ figure {
 	font-family: 'Poor Story', cursive;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="about-container"] {
+        padding: 0px 5% 100px 5%;
+        font-family: 'Poor Story', cursive;
+    }
+}
+
 .about-content {
 	font-size: 20px;
 	text-align: center;
 }
 
 .about-container img, iframe {
-	max-height: 180px;
-	width: 50%;
+	height: 200px;
+	width: auto;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -239,7 +255,6 @@ figure {
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
-
 
 .gallery .lightbox img:hover {
     transform: scale(1.05);
