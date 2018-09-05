@@ -293,9 +293,3 @@ figure {
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 }
-
-* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}
