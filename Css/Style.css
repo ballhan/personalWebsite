@@ -129,8 +129,15 @@ figure {
 	padding-bottom: 60px;
 }
 
-.intro h1 {
+.intro-h1 {
 	font-size: 400%;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+.intro-h2 {
+	font-size: 300%;
 	font-weight: bold;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
@@ -202,7 +209,7 @@ figure {
 	font-size: 20px;
 }
 
-.experience-container img {
+.experience-img {
 	height: 200px;
 	width: auto;
 	display: block;
@@ -234,7 +241,7 @@ figure {
 	text-align: center;
 }
 
-.about-container img, iframe {
+.content-img, .content-iframe {
 	height: 200px;
 	width: auto;
 	display: block;
@@ -245,24 +252,14 @@ figure {
 }
 
 /* Coffee */
-.gallery {
-    padding: 0 10% 0 10%;
+#starbucks {
+	background-color: #E5E7E9;
 }
 
-.gallery .lightbox img {
-    width: 100%;
-	margin-bottom: 10px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
-
-.gallery .lightbox img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-}
-
-.gallery img {
-    border-radius: 10px;
+.gallery-img {
+	height: 100%;
+	width: 100%;
+    object-fit: contain;
 }
 
 /* Contact */	
@@ -293,3 +290,12 @@ figure {
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 }
+
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
+*/
