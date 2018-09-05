@@ -6,9 +6,8 @@
 /* NAVBAR */
 .navbar {
 	background-color: #373737;
-	font-family: 'Amatic SC', cursive;
-	font-size: 1.5em;
-	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 150%;
 	border-color: transparent;
 }
 
@@ -82,7 +81,7 @@ section {
 }
 
 .landing-text {
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #FFF;
 	z-index: 100;
 	display: table-cell;
@@ -92,7 +91,6 @@ section {
 
 .landing-text h1 {
 	font-size: 800%;
-	font-weight: bold;
 }
 
 figure {
@@ -131,15 +129,13 @@ figure {
 
 .intro-h1 {
 	font-size: 400%;
-	font-weight: bold;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Patrick Hand', cursive;
 	text-align: center;
 }
 
 .intro-h2 {
 	font-size: 300%;
-	font-weight: bold;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Patrick Hand', cursive;
 	text-align: center;
 }
 
@@ -287,7 +283,7 @@ figure {
 #copyright {
 	background-color: #373737;
 	color: #FFF;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Patrick Hand', cursive;
 	text-align: center;
 }
 
