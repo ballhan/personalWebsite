@@ -180,7 +180,7 @@ figure {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="experience-container"] {
-        padding: 0px 7% 100px 7%;
+        padding: 0px 5% 100px 5%;
         font-family: 'Poor Story', cursive;
     }
 }
@@ -198,7 +198,7 @@ figure {
 }
 
 .experience-duty {
-	padding: 0px;
+	padding: 5px;
 	font-size: 20px;
 }
 
@@ -292,4 +292,10 @@ figure {
 	color: #FFF;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
+}
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 }
