@@ -190,19 +190,22 @@ figure {
 
 .experience-company {
 	color: green;
+	font-size: 200%;
 }
 
 .experience-position {
 	color: #3C5AB4;
+	font-size: 170%;
 }
 
 .experience-location {
 	color: grey;
+	font-size: 160%;
 }
 
 .experience-duty {
 	padding: 5px;
-	font-size: 20px;
+	font-size: 150%;
 }
 
 .experience-img {
@@ -233,7 +236,7 @@ figure {
 }
 
 .about-content {
-	font-size: 20px;
+	font-size: 180%;
 	text-align: center;
 }
 
