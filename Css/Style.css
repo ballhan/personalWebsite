@@ -277,6 +277,11 @@ figure {
 	height: 100%;
 	width: 100%;
     object-fit: fill;
+ }
+
+.gallery-img:hover {
+	opacity: 0.5;
+	transition: .5s;
 }
 
 /* Contact */	
