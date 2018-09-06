@@ -141,12 +141,11 @@ figure {
 	padding: 0px 5% 0px 5%;
 }
 
-/* Portfolio */
-#portfolio {
+/* Skill */
+#skill {
 	background-color: #E5E7E9;
 }
 
-/* Skill */
 .skill-container {
 	padding: 0px 20% 70px 20%;
 	font-family: 'Poor Story', cursive;
@@ -185,6 +184,10 @@ figure {
 }
 
 /* Experience */
+#experience {
+	background-color: #D9DADB;
+}
+
 .experience-container {
 	padding: 0px 20% 70px 20%;
 	font-family: 'Poor Story', cursive;
