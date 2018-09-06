@@ -91,7 +91,6 @@ section {
 
 .landing-text h1 {
 	font-size: 800%;
-	padding: 0px 10% 0px 10%;
 }
 
 figure {
@@ -132,14 +131,14 @@ figure {
 	font-size: 400%;
 	font-family: 'Neucha', cursive;
 	text-align: center;
-	padding: 0px 10% 0px 10%;
+	padding: 0px 5% 0px 5%;
 }
 
 .intro-h2 {
 	font-size: 300%;
 	font-family: 'Neucha', cursive;
 	text-align: center;
-	padding: 0px 10% 0px 10%;
+	padding: 0px 5% 0px 5%;
 }
 
 /* Portfolio */
@@ -261,7 +260,7 @@ figure {
 .gallery-img {
 	height: 100%;
 	width: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 /* Contact */	
