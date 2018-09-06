@@ -1,4 +1,4 @@
-$(function() {	
+$(document).ready(function() {	
   documentEl = $(document);	
   documentEl.on('scroll', function() {	
     if (isScrolledIntoView('#landingText')) {	
