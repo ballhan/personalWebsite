@@ -224,7 +224,7 @@ figure {
 
 .experience-img {
 	height: 200px;
-	width: auto;
+	width: 200px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -256,7 +256,7 @@ figure {
 
 .content-img, .content-iframe {
 	height: 200px;
-	width: auto;
+	width: 200px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
