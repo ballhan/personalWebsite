@@ -269,7 +269,7 @@ figure {
 }
 
 /* Override bootstrap column paddings */
-.row > div {
+.gallery > div {
     padding: 0px;
 }
 
