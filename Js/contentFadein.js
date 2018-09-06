@@ -31,12 +31,6 @@ $(document).ready(function() {
         $('#textSoccer').addClass("content-fade");	
         $('#textSoccer').removeClass("temp-hide");		
     };		
-    if (isScrolledIntoView('#imgCSA')) {	
-        $('#imgCSA').addClass("content-fade");	
-        $('#imgCSA').removeClass("temp-hide");
-        $('#textCSA').addClass("content-fade");	
-        $('#textCSA').removeClass("temp-hide");		
-    };	
     if (isScrolledIntoView('#videoDance')) {	
         $('#videoDance').addClass("content-fade");	
         $('#videoDance').removeClass("temp-hide");
