@@ -3,7 +3,7 @@ $(document).ready(function() {
   documentEl.on('scroll', function() {	
     if (isScrolledIntoView('#landingText')) {	
         $(".navbar-right").find(".active").removeClass("active");	
-        $('#top-nav').parent().addClass("active");	
+        $('#navHome').parent().addClass("active");	
     };	
      if (isScrolledIntoView('#portfolioHighBound')) {	
         $(".navbar-right").find(".active").removeClass("active");	
