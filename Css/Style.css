@@ -131,12 +131,14 @@ figure {
 	font-size: 400%;
 	font-family: 'Patrick Hand', cursive;
 	text-align: center;
+	padding: 0px 10% 0px 10%;
 }
 
 .intro-h2 {
 	font-size: 300%;
 	font-family: 'Patrick Hand', cursive;
 	text-align: center;
+	padding: 0px 10% 0px 10%;
 }
 
 /* Portfolio */
@@ -190,22 +192,22 @@ figure {
 
 .experience-company {
 	color: green;
-	font-size: 200%;
+	font-size: 180%;
 }
 
 .experience-position {
 	color: #3C5AB4;
-	font-size: 170%;
+	font-size: 150%;
 }
 
 .experience-location {
 	color: grey;
-	font-size: 160%;
+	font-size: 140%;
 }
 
 .experience-duty {
 	padding: 5px;
-	font-size: 150%;
+	font-size: 130%;
 }
 
 .experience-img {
@@ -236,7 +238,7 @@ figure {
 }
 
 .about-content {
-	font-size: 180%;
+	font-size: 160%;
 	text-align: center;
 }
 
@@ -338,10 +340,10 @@ figure {
 }
 
 /*
+
 * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }
 
-*/
