@@ -6,7 +6,7 @@
 /* NAVBAR */
 .navbar {
 	background-color: #373737;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Neucha', cursive;
 	font-size: 150%;
 	border-color: transparent;
 }
@@ -81,7 +81,7 @@ section {
 }
 
 .landing-text {
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Neucha', cursive;
 	color: #FFF;
 	z-index: 100;
 	display: table-cell;
@@ -91,6 +91,7 @@ section {
 
 .landing-text h1 {
 	font-size: 800%;
+	padding: 0px 10% 0px 10%;
 }
 
 figure {
@@ -129,14 +130,14 @@ figure {
 
 .intro-h1 {
 	font-size: 400%;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Neucha', cursive;
 	text-align: center;
 	padding: 0px 10% 0px 10%;
 }
 
 .intro-h2 {
 	font-size: 300%;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Neucha', cursive;
 	text-align: center;
 	padding: 0px 10% 0px 10%;
 }
@@ -287,9 +288,13 @@ figure {
 /* Footer */
 #copyright {
 	background-color: #373737;
+}
+
+.copyright-text {
 	color: #FFF;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Neucha', cursive;
 	text-align: center;
+	font-size: 150%;
 }
 
 /* Animation */	
@@ -340,7 +345,6 @@ figure {
 }
 
 /*
-
 * {
   background: #000 !important;
   color: #0f0 !important;
