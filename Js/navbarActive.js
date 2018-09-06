@@ -1,10 +1,29 @@
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}
+$(function() {	
+  documentEl = $(document);	
+  documentEl.on('scroll', function() {	
+    if (isScrolledIntoView('#landingText')) {	
+        $(".navbar-right").find(".active").removeClass("active");	
+        $('#top-nav').parent().addClass("active");	
+    };	
+     if (isScrolledIntoView('#portfolioHighBound')) {	
+        $(".navbar-right").find(".active").removeClass("active");	
+        $('#navPortfolio').parent().addClass("active");	
+    };	
+    if (isScrolledIntoView('#portfolioLowBound')) {	
+        $(".navbar-right").find(".active").removeClass("active");	
+        $('#navPortfolio').parent().addClass("active");	
+    };	
+    if (isScrolledIntoView('#aboutHighBound')) {	
+        $(".navbar-right").find(".active").removeClass("active");	
+        $('#navAbout').parent().addClass("active");	
+    };	
+    if (isScrolledIntoView('#aboutLowBound')) {	
+        $(".navbar-right").find(".active").removeClass("active");	
+        $('#navAbout').parent().addClass("active");	
+    };	
+    if (isScrolledIntoView('#contactBound')) {	
+        $(".navbar-right").find(".active").removeClass("active");	
+        $('#navContact').parent().addClass("active");	
+    };	
+   });	
+});
