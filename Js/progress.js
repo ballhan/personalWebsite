@@ -1,6 +1,6 @@
 function grow(length, id) {
   var element = document.getElementById(id);
-  var pro = length - 1;
+  var progress = length;
 
   if ((element.style.width) != 0) {
     return;
@@ -9,7 +9,7 @@ function grow(length, id) {
   var id = setInterval(frame,20);
 
     function frame() {
-        if (width >= pro) {
+        if (width >= progress) {
             clearInterval(id);
         } else {
             width++;
@@ -23,16 +23,16 @@ $(function() {
   documentEl.on('scroll', function() {
     //console.log(isScrolledIntoView('#portfolio-indi'));
     if (isScrolledIntoView('#webSkill')) {
-      grow(90, 'skillHtml');
-      grow(80, 'skillJs');
-      grow(70, 'skillAngular');
-      grow(60, 'skillNode.js');
+      grow(100, 'skillHtml');
+      grow(90, 'skillJs');
+      grow(80, 'skillAngular');
+      grow(70, 'skillNode.js');
     };
 
     if (isScrolledIntoView('#otherSkill')) {
-      grow(80, 'skillPython');
-      grow(70, 'skillC++');
-      grow(60, 'skillC');
+      grow(85, 'skillPython');
+      grow(75, 'skillC++');
+      grow(65, 'skillC');
     };
   });
 });
