@@ -12,15 +12,15 @@
 }
 
 .navbar .navbar-brand {
-  color: #FFF;
+	color: #FFF;
 }
 
 .navbar .navbar-brand:hover {
-  color: #FFF;
+	color: #FFF;
 }
 
 .navbar .navbar-brand:focus {
-  color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .navbar .navbar-nav li a {
@@ -37,14 +37,6 @@
 	background-color: #373737;
 	color: #FFFFFF;
 	font-size: 120%;
-}
-
-.navbar-toggle {
-    border-color: #D5D5D5;
-}
-
-.icon-bar {
-	background-color: #D5D5D5;
 }
 
 #navbar-collapse-main .active a {
@@ -97,7 +89,7 @@ section {
 	vertical-align: middle;
 }
 
-.landing-text h1 {
+#landingText {
 	font-size: 800%;
 }
 
@@ -379,4 +371,3 @@ figure {
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }
-
