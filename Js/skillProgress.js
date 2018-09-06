@@ -18,7 +18,7 @@ function grow(length, id) {
     }
 }
 
-$(function() {
+$(document).ready(function() {
   documentEl = $(document);
   documentEl.on('scroll', function() {
     //console.log(isScrolledIntoView('#portfolio-indi'));
