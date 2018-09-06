@@ -20,7 +20,7 @@
 }
 
 .navbar .navbar-brand:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .navbar .navbar-nav li a {
@@ -29,13 +29,13 @@
 
 .navbar .navbar-nav li a:hover {
 	background-color: #373737;
-	color: #FFF;
+	color: #FFFFFF;
 	font-size: 120%;
 }
 
 .navbar .navbar-nav li a:focus {
 	background-color: #373737;
-	color: #FFF;
+	color: #FFFFFF;
 	font-size: 120%;
 }
 
@@ -48,9 +48,8 @@
 }
 
 #navbar-collapse-main .active a {
-	font-weight: bold;
 	background-color: #373737;
-	color:#FFF;
+	color: #FFFFFF;
 	font-size: 120%;
 }
 
@@ -117,7 +116,7 @@ figure {
 	height: 100%;
 }
 
-#fixed {
+#backgroundTwo {
 	background-image: url('../Assets/Background2.JPG');
 	filter: blur(1px);
 	display: block;
