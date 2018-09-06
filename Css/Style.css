@@ -232,7 +232,7 @@ figure {
 
 /* About */
 #about {
-	background-color: #F2F3F4;
+	background-color: #E5E7E9;
 }
 
 .about-container {
@@ -265,7 +265,7 @@ figure {
 
 /* Coffee */
 #starbucks {
-	background-color: #E5E7E9;
+	background-color: #D9DADB;
 }
 
 /* Override bootstrap column paddings */
@@ -286,7 +286,7 @@ figure {
 
 /* Contact */	
 #contact {	
-	background-color: #D9DADB;	
+	background-color: #F2F3F4;	
 }	
 
 .contact-container {
