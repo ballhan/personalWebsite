@@ -3,5 +3,6 @@
   * CSS
   * Bootstrap
   * JavaScript
-  * jQuery \\
+  * jQuery \
+ \
 This is a my personal website [bohanchen.ca](https://bohanchen.ca/)
