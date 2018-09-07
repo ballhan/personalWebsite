@@ -4,5 +4,4 @@
   * Bootstrap
   * JavaScript
   * jQuery \
- \
-This is a my personal website [bohanchen.ca](https://bohanchen.ca/)
+This is my personal website [bohanchen.ca](https://bohanchen.ca/)
