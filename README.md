@@ -4,4 +4,4 @@ This is my personal website [bohanchen.ca](https://bohanchen.ca/)
   * CSS
   * Bootstrap
   * JavaScript
-  * jQuery 
+  * jQuery
