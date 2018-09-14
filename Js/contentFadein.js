@@ -18,7 +18,13 @@ $(document).ready(function() {
         $('#imgMonsheong').removeClass("temp-hide");
         $('#textMonsheong').addClass("content-fade");	
         $('#textMonsheong').removeClass("temp-hide");		
-    };	
+    };
+    if (isScrolledIntoView('#imgJsGame')) {  
+        $('#imgJsGame').addClass("content-fade");    
+        $('#imgJsGame').removeClass("temp-hide");
+        $('#textJsGame').addClass("content-fade");   
+        $('#textJsGame').removeClass("temp-hide");       
+    };  	
     if (isScrolledIntoView('#imgBro')) {	
         $('#imgBro').addClass("content-fade");	
         $('#imgBro').removeClass("temp-hide");	
