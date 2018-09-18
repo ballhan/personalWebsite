@@ -106,7 +106,7 @@ section {
 }
 
 .image-break {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Assets/Landing/fixedLanding.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Assets/Landing/fixedLanding.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
