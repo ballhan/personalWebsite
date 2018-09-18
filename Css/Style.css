@@ -93,8 +93,16 @@ section {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
 	display: inline-block;
 	border: 3px solid #F1F1F1;
-  	width: 80%;
+  	width: 60%;
 	font-size: 800%;
+}
+	
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #landingText {
+  		width: 80%;
+		font-size: 500%;
+    }
 }
 
 .image-break {
