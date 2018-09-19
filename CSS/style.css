@@ -36,7 +36,6 @@
 .navbar .navbar-nav li a:focus {
 	background-color: #373737;
 	color: #FFFFFF;
-	font-size: 120%;
 }
 
 #navbar-collapse-main .active a {
