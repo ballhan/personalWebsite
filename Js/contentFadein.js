@@ -1,6 +1,12 @@
 $(document).ready(function() {	
-  documentEl = $(document);	
-  documentEl.on('scroll', function() {	
+    documentEl = $(document);
+
+    window.onload = function() {
+        $('#landingText').addClass("content-fade");  
+        $('#landingText').removeClass("temp-hide");
+    };
+
+    documentEl.on('scroll', function() {
     if (isScrolledIntoView('#imgKik')) {	
         $('#imgKik').addClass("content-fade");	
         $('#imgKik').removeClass("temp-hide");
