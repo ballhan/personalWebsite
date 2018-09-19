@@ -1,1 +1,391 @@
+﻿html, body {
+	height:100%;
+	width: 100%;
+}
 
+/* NAVBAR */
+.navbar {
+	background-color: #373737;
+	font-family: 'Neucha', cursive;
+	font-size: 150%;
+	border-color: transparent;
+}
+
+.navbar .navbar-brand {
+	color: #FFF;
+}
+
+.navbar .navbar-brand:hover {
+	color: #FFF;
+}
+
+.navbar .navbar-brand:focus {
+	color: #FFFFFF;
+}
+
+.navbar .navbar-nav li a {
+	color: #D5D5D5;
+}
+
+.navbar .navbar-nav li a:hover {
+	background-color: #373737;
+	color: #FFFFFF;
+	font-size: 120%;
+}
+
+.navbar .navbar-nav li a:focus {
+	background-color: #373737;
+	color: #FFFFFF;
+	font-size: 120%;
+}
+
+#navbar-collapse-main .active a {
+	background-color: #373737;
+	color: #FFFFFF;
+	font-size: 120%;
+}
+
+/* BACKGROUND */
+section {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
+
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#landingPicture {
+	padding: 100px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../Assets/Landing/landingPage.jpg');
+	filter: blur(5px);
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+
+.landing-text {
+	color: #FFF;
+    text-align: center;
+	font-family: 'Neucha', cursive;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#landingText {
+	background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	display: inline-block;
+	border: 3px solid #F1F1F1;
+  	width: 60%;
+	font-size: 800%;
+}
+	
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #landingText {
+  		width: 80%;
+		font-size: 500%;
+    }
+}
+
+.image-break {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Assets/Landing/fixedLanding.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.intro {
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+.intro-h1 {
+	font-size: 400%;
+	font-family: 'Neucha', cursive;
+	text-align: center;
+	padding: 0px 5% 0px 5%;
+}
+
+.intro-h2 {
+	font-size: 300%;
+	font-family: 'Neucha', cursive;
+	text-align: center;
+	padding: 0px 5% 0px 5%;
+}
+
+/* Skill */
+#skill {
+	background-color: #E5E7E9;
+}
+
+.skill-container {
+	padding: 0px 20% 70px 20%;
+	font-family: 'Poor Story', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="skill-container"] {
+        padding: 0px 10% 7px 10%;
+        font-family: 'Poor Story', cursive;
+    }
+}
+
+.skill-list {
+	padding-bottom: 20px;
+	font-size: 140%;
+	list-style: none;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #FFFFFF;
+}
+
+.skill-progress {
+    width: 0%;
+    height: 20px;
+    background-color: #3FD6D2;
+}
+
+.skill-progress2 {
+    width: 0%;
+    height: 20px;
+    background-color: #9DC183;
+}
+
+/* Experience */
+#experience {
+	background-color: #EAEBED;
+}
+
+.experience-container {
+	padding: 0px 20% 70px 20%;
+	font-family: 'Poor Story', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="experience-container"] {
+        padding: 0px 10% 100px 10%;
+        font-family: 'Poor Story', cursive;
+    }
+}
+
+.experience-company {
+	color: green;
+	font-size: 180%;
+}
+
+.experience-position {
+	color: #3C5AB4;
+	font-size: 150%;
+}
+
+.experience-location {
+	color: grey;
+	font-size: 140%;
+}
+
+.experience-duty {
+	padding: 5px;
+	font-size: 130%;
+}
+
+.experience-img {
+	height: 180px;
+	width: 180px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* Experience */
+#project {
+	background-color: #F2F3F4;
+}
+
+.project-name {
+	color: green;
+	font-size: 180%;
+}
+
+.project-description {
+	padding: 5px;
+	font-size: 130%;
+}
+
+.project-img {
+	height: 250px;
+	width: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+
+/* About */
+#about {
+	background-color: #E5E7E9;
+}
+
+.about-container {
+	padding: 0px 20% 100px 20%;
+	font-family: 'Poor Story', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="about-container"] {
+        padding: 0px 10% 100px 10%;
+        font-family: 'Poor Story', cursive;
+    }
+}
+
+.about-content {
+	font-size: 160%;
+	text-align: center;
+}
+
+.content-img, .content-iframe {
+	height: 250px;
+	width: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+/* Coffee */
+#starbucks {
+	background-color: #EAEBED;
+}
+
+/* Override bootstrap column paddings */
+.gallery > div {
+    padding: 0px;
+}
+
+.gallery-img {
+	height: 100%;
+	width: 100%;
+    object-fit: fill;
+ }
+
+.gallery-img:hover {
+	opacity: 0.5;
+	transition: .5s;
+}
+
+/* Contact */	
+#contact {	
+	background-color: #F2F3F4;	
+}	
+
+.contact-container {
+	padding: 100px 0px 100px 0px;
+	text-align: center;
+}
+
+.contact-link {
+	text-decoration: none;
+}
+
+.contact-img {
+	height: 100px;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Footer */
+#copyright {
+	background-color: #373737;
+}
+
+.copyright-text {
+	color: #FFF;
+	font-family: 'Neucha', cursive;
+	text-align: center;
+	font-size: 150%;
+}
+
+/* Animation */	
+.content-fade {	
+	-moz-animation: fadein 1.5s; /* Firefox */	
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */	
+    -o-animation: fadein 1.5s; /* Opera */	
+}	
+
+.temp-hide {	
+	opacity: 0;	
+}	
+
+@keyframes fadein {	
+    from {	
+        opacity:0;	
+    }	
+    to {	
+        opacity:1;	
+    }	
+}	
+
+@-moz-keyframes fadein { /* Firefox */	
+    from {	
+        opacity:0;	
+    }	
+    to {	
+        opacity:1;	
+    }	
+}	
+
+@-webkit-keyframes fadein { /* Safari and Chrome */	
+    from {	
+        opacity:0;	
+    }	
+    to {	
+        opacity:1;	
+    }	
+}	
+
+@-o-keyframes fadein { /* Opera */	
+    from {	
+        opacity:0;	
+    }	
+    to {	
+        opacity: 1;	
+    }	
+}
+
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
