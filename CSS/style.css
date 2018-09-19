@@ -35,6 +35,7 @@
 
 .navbar .navbar-nav li a:focus {
 	background-color: #373737;
+	color: #D5D5D5;
 }
 
 #navbar-collapse-main .active a {
