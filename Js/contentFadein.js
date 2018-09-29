@@ -31,23 +31,11 @@ $(document).ready(function() {
         $('#textJsGame').addClass("content-fade");   
         $('#textJsGame').removeClass("temp-hide");       
     };  	
-    if (isScrolledIntoView('#imgBro')) {	
-        $('#imgBro').addClass("content-fade");	
-        $('#imgBro').removeClass("temp-hide");	
-        $('#textBro').addClass("content-fade");	
-        $('#textBro').removeClass("temp-hide");	
+    if (isScrolledIntoView('#imgAbout')) {	
+        $('#imgAbout').addClass("content-fade");	
+        $('#imgAbout').removeClass("temp-hide");	
+        $('#textAbout').addClass("content-fade");	
+        $('#textAbout').removeClass("temp-hide");	
     };
-    if (isScrolledIntoView('#imgSoccer')) {	
-        $('#imgSoccer').addClass("content-fade");	
-        $('#imgSoccer').removeClass("temp-hide");
-        $('#textSoccer').addClass("content-fade");	
-        $('#textSoccer').removeClass("temp-hide");		
-    };		
-    if (isScrolledIntoView('#videoDance')) {	
-        $('#videoDance').addClass("content-fade");	
-        $('#videoDance').removeClass("temp-hide");
-        $('#textDance').addClass("content-fade");	
-        $('#textDance').removeClass("temp-hide");		
-    };	
   });	
 });
