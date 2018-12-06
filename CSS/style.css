@@ -204,8 +204,8 @@ section {
 }
 
 .experience-img {
-	height: 150px;
-	width: auto;
+	height: auto;
+	width: 150px;
 	display: block;
 	margin-top: 20px;
     margin-left: auto;
