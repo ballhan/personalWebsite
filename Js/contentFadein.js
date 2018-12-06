@@ -7,6 +7,12 @@ $(document).ready(function() {
     };
 
     documentEl.on('scroll', function() {
+    if (isScrolledIntoView('#imgRj')) {    
+        $('#imgRj').addClass("content-fade");  
+        $('#imgRj').removeClass("temp-hide");
+        $('#textRj').addClass("content-fade"); 
+        $('#textRj').removeClass("temp-hide");     
+    };  
     if (isScrolledIntoView('#imgKik')) {	
         $('#imgKik').addClass("content-fade");	
         $('#imgKik').removeClass("temp-hide");
