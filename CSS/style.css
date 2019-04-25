@@ -129,7 +129,7 @@ section {
 }
 
 .content-container {
-	padding: 0px 20% 100px 20%;
+	padding: 0px 25% 100px 25%;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -174,20 +174,9 @@ section {
 }
 
 /* Contact */
-.contact {
-	list-style-type: none;
-}
-
 .contact li {
 	text-align: center;
 	font-size: 400%;
-}
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="contact li"] {
-		text-align: left;
-    }
 }
 
 #github {
@@ -224,19 +213,6 @@ section {
 #skill {
 	background-color: #212529;
 	color: #FFF;
-}
-
-.skill-container {
-	padding: 0px 20% 70px 20%;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="skill-container"] {
-        padding: 0px 10% 10px 10%;
-        font-family: 'Source Sans Pro', sans-serif;
-    }
 }
 
 .skill-list {
