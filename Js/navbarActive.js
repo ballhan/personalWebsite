@@ -21,9 +21,5 @@ $(document).ready(function() {
         $(".navbar-right").find(".active").removeClass("active");	
         $('#navAbout').parent().addClass("active");	
     };	
-    if (isScrolledIntoView('#contactBound')) {	
-        $(".navbar-right").find(".active").removeClass("active");	
-        $('#navContact').parent().addClass("active");	
-    };	
    });	
 });

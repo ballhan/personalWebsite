@@ -156,6 +156,8 @@ section {
     border: 3px solid white;
 }
 
+
+
 /* Skill */
 #skill {
 	background-color: #F4F5F6;
@@ -236,27 +238,6 @@ section {
 /* Projects */
 #project {
 	background-color: #F4F5F6;
-}
-
-/* Contact */	
-#contact {	
-	background-color: #F2F3F4;	
-}	
-
-.contact-container {
-	padding: 100px 0px 100px 0px;
-	text-align: center;
-}
-
-.contact-link {
-	text-decoration: none;
-}
-
-.contact-img {
-	height: 100px;
-	width: auto;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 /* Footer */
