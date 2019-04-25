@@ -218,7 +218,6 @@ section {
 .skill-list {
 	padding-bottom: 20px;
 	font-size: 140%;
-	list-style: none;
 }
 
 .skill-bar {
@@ -265,7 +264,7 @@ section {
 }
 
 .experience-location {
-	color: grey;
+	color: #212529;
 	font-size: 140%;
 }
 
