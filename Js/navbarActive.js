@@ -5,7 +5,7 @@ $(document).ready(function() {
         $(".navbar-right").find(".active").removeClass("active");	
         $('#navHome').parent().addClass("active");	
     };	
-     if (isScrolledIntoView('#portfolioHighBound')) {	
+    if (isScrolledIntoView('#portfolioHighBound')) {	
         $(".navbar-right").find(".active").removeClass("active");	
         $('#navPortfolio').parent().addClass("active");	
     };	
