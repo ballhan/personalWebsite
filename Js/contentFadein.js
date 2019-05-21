@@ -7,6 +7,12 @@ $(document).ready(function() {
     };
 
     documentEl.on('scroll', function() {
+    if (isScrolledIntoView('#imgAbout')) {	
+        $('#imgAbout').addClass("content-fade");	
+        $('#imgAbout').removeClass("temp-hide");	
+        $('#textAbout').addClass("content-fade");	
+        $('#textAbout').removeClass("temp-hide");	
+    };
     if (isScrolledIntoView('#imgRj')) {    
         $('#imgRj').addClass("content-fade");  
         $('#imgRj').removeClass("temp-hide");
@@ -37,11 +43,17 @@ $(document).ready(function() {
         $('#textJsGame').addClass("content-fade");   
         $('#textJsGame').removeClass("temp-hide");       
     };  	
-    if (isScrolledIntoView('#imgAbout')) {	
-        $('#imgAbout').addClass("content-fade");	
-        $('#imgAbout').removeClass("temp-hide");	
-        $('#textAbout').addClass("content-fade");	
-        $('#textAbout').removeClass("temp-hide");	
-    };
+    if (isScrolledIntoView('#imgTranslateHelper')) {  
+        $('#imgTranslateHelper').addClass("content-fade");    
+        $('#imgTranslateHelper').removeClass("temp-hide");
+        $('#textTranslateHelper').addClass("content-fade");   
+        $('#textTranslateHelper').removeClass("temp-hide");       
+    };  	
+    if (isScrolledIntoView('#imgThemeChanger')) {  
+        $('#imgThemeChanger').addClass("content-fade");    
+        $('#imgThemeChanger').removeClass("temp-hide");
+        $('#textThemeChanger').addClass("content-fade");   
+        $('#textThemeChanger').removeClass("temp-hide");       
+    };  	
   });	
 });

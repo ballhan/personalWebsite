@@ -249,17 +249,6 @@ section {
 	background-color: #FFF;
 }
 
-.btn, .btn:focus, .btn:active {
-	background-color: #3C5AB4;
-	border-color: #3C5AB4;
-}
-
-.btn:hover {
-	background-color: #3C5AB4;
-	border-color: #3C5AB4;
-	animation: shake 0.6s infinite; 
-}
-
 /* Footer */
 #copyright {
 	background-color: #212529;
