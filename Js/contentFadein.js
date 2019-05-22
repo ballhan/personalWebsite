@@ -43,12 +43,14 @@ $(document).ready(function() {
         $('#textJsGame').addClass("content-fade");   
         $('#textJsGame').removeClass("temp-hide");       
     };  	
+    /*
     if (isScrolledIntoView('#imgTranslateHelper')) {  
         $('#imgTranslateHelper').addClass("content-fade");    
         $('#imgTranslateHelper').removeClass("temp-hide");
         $('#textTranslateHelper').addClass("content-fade");   
         $('#textTranslateHelper').removeClass("temp-hide");       
     };  	
+    */
     if (isScrolledIntoView('#imgThemeChanger')) {  
         $('#imgThemeChanger').addClass("content-fade");    
         $('#imgThemeChanger').removeClass("temp-hide");

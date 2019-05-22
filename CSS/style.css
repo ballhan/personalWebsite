@@ -167,6 +167,7 @@ section {
 .container-img {
 	height: 150px;
 	width: 150px;
+	margin-top: 20px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
