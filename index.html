@@ -1,231 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	    <title>Bohan Chen</title>
-	    <link rel="icon" href="Assets/bohanLogo.jpg">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="author" content="Bohan Chen">
-	    <!-- Css -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	    <link href="CSS/style.css" rel="stylesheet">  
-		<!-- Fonts -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-	</head>
 
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="https://www.bohanchen.ca">Bohan Chen</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-main">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a id="navHome" href="#landingPage">HOME</a></li>
-						<li><a id="navAbout" href="#about">ABOUT</a></li>
-						<li><a id="navPortfolio" href="#portfolio">PORTFOLIO</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<head id="top">
+    <title>Bohan Chen</title>
+    <link rel="icon" href="Assets/bohanLogo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Bohan Chen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
 
-		<section id="landingPage">
-			<div class="landing-text">
-				<h1 id="landingText" class="temp-hide">Hi, I am Bohan</h1>
-			</div>
-			<div class="home-wrap">
-		        <div id="landingPicture">
-				</div>
-		    </div>
-		</section>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                <a class="navbar-brand" href="https://www.bohanchen.ca">Bohan Chen</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="navAbout" href="#top">ABOUT</a></li>
+                    <li><a id="navExperience" href="#experience">EXPERIENCE</a></li>
+                    <li><a id="navProject" href="#project">PROJECT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-		<div id="about">			
-			<div class="intro">
-		    	<h1 id="aboutHighBound" class="intro-h1">About Me</h1>
-		    </div>
+    <div id="about">
+        <div class="content-container">
+            <div id="imgAbout">
+                <img class="about-img" src="Assets/bohanLogo.jpg" alt="bohanLogo">
+                <br>
+            </div>
+            <div>
+                <p class="container-text">Hi, I am Bohan</p>
+            </div>
+            <div id="textAbout">
+                <p class="container-text" id="aboutLowBound">I’m a student at the University of Waterloo and most recently a Web Developer at Raymond James Ltd.</br>
+                    </br>When I’m not doing school work, I enjoy playing sports and socializing with people. I also make web applications and websites for my friends.</p>
+                </br>
+                </br>
+                <div>
+                    <ul class="contact list-unstyled">
+                        <li><a href="https://github.com/ballhan" target="_blank"><i class="fab fa-github-square"
+											id="github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/bohan-c-355501153/" target="_blank"><i
+											class="fab fa-linkedin" id="linkedin"></i></a></li>
+                        <li><a href="mailto:chenbohan81@gmail.com"><i class="fas fa-envelope" id="mail"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			<div class="content-container">
-				<div class="row">
-					<div id="imgAbout" class="col-sm-6  temp-hide">
-						<img class="about-img" src="Assets/bohanLogo.jpg" alt="">
-					</div>
-					<div id="textAbout" class="col-sm-6  temp-hide">
-						<p class="container-text" id="aboutLowBound">I’m a student at the University of Waterloo and most recently a Web Developer at Raymond James Ltd.</br></br>When I’m not doing school work, I enjoy playing sports and socializing with people. I also make web applications and websites for my friends.</p>
-						</br></br>
-						<div class="col-xs-4">
-							<ul class="contact list-unstyled">
-								<li><a href="https://github.com/ballhan" target="_blank"><i class="fab fa-github-square" id="github"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-xs-4">
-							<ul class="contact list-unstyled">
-								<li><a href="https://www.linkedin.com/in/bohan-c-355501153/" target="_blank"><i class="fab fa-linkedin"  id="linkedin"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-xs-4">
-							<ul class="contact list-unstyled">
-								<li><a href="mailto:chenbohan81@gmail.com"><i class="fas fa-envelope" id="mail"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div id="experience" class="card">
+        <div class="intro">
+            <h1 id="portfolioHighBound" class="intro-h1">Experiences</h1>
+        </div>
 
-		<div id="portfolio">
-		    
-			<div id="experience">
-				<div class="intro">
-			    	<h1 id="portfolioHighBound" class="intro-h1">Experiences</h1>
-			    </div>
+        <div class="content-container">
+            <div class="row">
+                <div id="imgRj" class="col-sm-6  temp-hide">
+                    <img class="experience-img" src="Assets/Experience/Rj.jpg" alt="">
+                </div>
+                <div id="textRj" class="col-sm-6  temp-hide experience-text">
+                    <h3 class="experience-company">Raymond James Ltd.</h3>
+                    <h4 class="experience-position">Web Developer, 09/2018 - 12/2018</h4>
+                    <h4 class="experience-location">Toronto, ON</h4>
+                    <ul class="experience-duty">
+                        <li>Updated and maintained the company’s websites using Sitecore and SharePoint</li>
+                        <li>Debugged and resolved frontend bugs on websites using HTML, CSS and Bootstrap</li>
+                        <li>Built multiple Finance Calculator applications using Angular with charts and graphics drew using HTML Canvas for advisors to visualize the relationship between each component
+                        </li>
+                        <li>Refactored over 500 lines of code for reusability and maintainability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-				<div class="content-container">   
-			    	<div class="row">
-						<div id="imgRj" class="col-sm-6  temp-hide">
-							<img class="experience-img" src="Assets/Experience/Rj.jpg" alt="">
-						</div>
-						<div id="textRj" class="col-sm-6  temp-hide experience-text">
-							<h3 class="experience-company">Raymond James Ltd.</h3>
-							<h4 class="experience-position">Web Developer, 09/2018 - 12/2018</h4>
-							<h4 class="experience-location">Toronto, ON</h4>
-							<ul class="experience-duty">
-								<li>Updated and maintained the company’s websites using Sitecore and SharePoint</li>
-								<li>Debugged and resolved frontend bugs on websites using HTML, CSS and Bootstrap</li>
-								<li>Built multiple Finance Calculator applications using Angular with charts and graphics drew using HTML Canvas for advisors to visualize the relationship between each component</li>
-								<li>Refactored over 500 lines of code for reusability and maintainability</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+        <div class="content-container">
+            <div class="row">
+                <div id="imgKik" class="col-sm-6  temp-hide">
+                    <img class="experience-img" src="Assets/Experience/Kik.png" alt="">
+                </div>
+                <div id="textKik" class="col-sm-6  temp-hide experience-text">
+                    <h3 class="experience-company">Kik Interactive</h3>
+                    <h4 class="experience-position">QA Analyst, 01/2018 - 04/2018</h4>
+                    <h4 class="experience-location">Waterloo, ON</h4>
+                    <ul class="experience-duty">
+                        <li>Performed daily tasks including Sanity, Regression and Upgrade Testing</li>
+                        <li>Wrote Integrated Tests using C# with Visual Studio for the QA team’s UI Automation Project
+                        </li>
+                        <li>Developed test suites and debugged features including iPhone X UI Remake, Verification Badge, Group Description, Chat Theme, Profile Background Picture and Share Extension
+                        </li>
+                        <li>Investigated bugs based on reports from Internal Slack Channel, Instabug and User Reviews
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-				<div class="content-container">   
-			    	<div class="row">
-						<div id="imgKik" class="col-sm-6  temp-hide">
-							<img class="experience-img" src="Assets/Experience/Kik.png" alt="">
-						</div>
-						<div id="textKik" class="col-sm-6  temp-hide experience-text">
-							<h3 class="experience-company">Kik Interactive</h3>
-							<h4 class="experience-position">QA Analyst, 01/2018 - 04/2018</h4>
-							<h4 class="experience-location">Waterloo, ON</h4>
-							<ul class="experience-duty">
-								<li>Performed daily tasks including Sanity, Regression and Upgrade Testing</li>
-								<li>Wrote Integrated Tests using C# with Visual Studio for the QA team’s UI Automation Project</li>
-								<li>Developed test suites and debugged features including iPhone X UI Remake, Verification Badge, Group Description, Chat Theme, Profile Background Picture and Share Extension</li>
-								<li>Investigated bugs based on reports from Internal Slack Channel, Instabug and User Reviews</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+        <div class="content-container">
+            <div class="row">
+                <div id="imgUWCSA" class="col-sm-6  temp-hide">
+                    <img class="experience-img" src="Assets/Experience/UWCSA.png" alt="">
+                </div>
+                <div id="textUWCSA" class="col-sm-6  temp-hide">
+                    <h3 class="experience-company">UWCSA (University of Waterloo Chinese Student Association)</h3>
+                    <h4 class="experience-position">Event Coordinator, 05/2017 - Present</h4>
+                    <h4 class="experience-location">University of Waterloo, ON</h4>
+                    <ul class="experience-duty">
+                        <li>Brainstormed, planned and hosted school-wide events such as UWCSA Night Market and Simu Liu Greet and Meet which provided quality leisure time for over 1000 students</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-				<div class="content-container">
-					<div class="row">
-						<div id="imgUWCSA" class="col-sm-6  temp-hide">
-							<img class="experience-img" src="Assets/Experience/UWCSA.png" alt="">
-						</div>
-						<div id="textUWCSA" class="col-sm-6  temp-hide">
-							<h3 class="experience-company">UWCSA (University of Waterloo Chinese Student Association)</h3>
-							<h4 class="experience-position">Event Coordinator, 05/2017 - Present</h4>
-							<h4 class="experience-location">University of Waterloo, ON</h4>
-							<ul class="experience-duty">
-								<li>Brainstormed, planned and hosted school-wide events such as UWCSA Night Market and Simu Liu Greet and Meet which provided quality leisure time for over 1000 students</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+        <div class="content-container">
+            <div class="row">
+                <div id="imgMonsheong" class="col-sm-6  temp-hide">
+                    <img class="experience-img" src="Assets/Experience/Monsheong.png" alt="">
+                </div>
+                <div id="textMonsheong" class="col-sm-6  temp-hide">
+                    <h3 class="experience-company">Mon Sheong Chinese School</h3>
+                    <h4 class="experience-position">Teaching Assistant, 04/2015 - 04/2016</h4>
+                    <h4 class="experience-location">Richmond Hill, ON</h4>
+                    <ul class="experience-duty">
+                        <li>Taught children essential day-to-day communication skills</li>
+                        <li>Supervised children to behave in a safe and organized manner</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-				<div class="content-container">
-					<div class="row">
-						<div id="imgMonsheong" class="col-sm-6  temp-hide">
-							<img class="experience-img" src="Assets/Experience/Monsheong.png" alt="">
-						</div>
-						<div id="textMonsheong" class="col-sm-6  temp-hide">
-							<h3 class="experience-company">Mon Sheong Chinese School</h3>
-							<h4 class="experience-position">Teaching Assistant, 04/2015 - 04/2016</h4>
-							<h4 class="experience-location">Richmond Hill, ON</h4>
-							<ul class="experience-duty">
-								<li>Taught children essential day-to-day communication skills</li>
-								<li>Supervised children to behave in a safe and organized manner</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+    <div id="project" class="card">
+        <div class="intro">
+            <h1 class="intro-h1">Projects</h1>
+        </div>
 
-			<div id="project">
-				<div class="intro">
-			    	<h1 class="intro-h1">Projects</h1>
-				</div>
+        <div class="content-container">
+            <div class="row">
+                <div id="imgJsGame" class="col-sm-6  temp-hide">
+                    <img class="container-img" src="Assets/Project/jsGame.gif" alt="">
+                </div>
+                <div id="textJsGame" class="col-sm-6  temp-hide">
+                    <h3 class="experience-company">2D Shooting Game</h3>
+                    </a>
+                    <a href="https://ballhan.github.io/2D-Shooting-Game/" target="_blank"><button type="button"
+								class="btn btn-primary">Demo</button></a>
+                    <a href="https://github.com/ballhan/2D-Shooting-Game" target="_blank"><button type="button"
+								class="btn btn-primary">Code</button></a>
+                    <ul class="experience-duty">
+                        <li>Built a web game with graphics drew using HTML Canvas, hosted using GitHub Pages</li>
+                        <li>Current version includes four types of enemies and one shooting style, more features coming soon</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-				<div class="content-container">   
-			    	<div class="row">
-						<div id="imgJsGame" class="col-sm-6  temp-hide">
-							<img class="container-img" src="Assets/Project/jsGame.gif" alt="">
-						</div>
-						<div id="textJsGame" class="col-sm-6  temp-hide">
-							<h3 class="experience-company">2D Shooting Game</h3></a>
-							<a href="https://ballhan.github.io/2D-Shooting-Game/" target="_blank"><button type="button" class="btn btn-primary">Demo</button></a>
-							<a href="https://github.com/ballhan/2D-Shooting-Game" target="_blank"><button type="button" class="btn btn-primary">Code</button></a>
-							<ul class="experience-duty">
-								<li>Built a web game with graphics drew using HTML Canvas, hosted using GitHub Pages</li>
-								<li>Current version includes four types of enemies and one shooting style, more features coming soon</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+        <div class="content-container">
+            <div class="row">
+                <div id="imgThemeChanger" class="col-sm-6  temp-hide">
+                    <img class="container-img" src="Assets/Project/themeChanger.png" alt="">
+                </div>
+                <div id="textThemeChanger" class="col-sm-6  temp-hide">
+                    <h3 class="experience-company">Theme Changer</h3>
+                    </a>
+                    <a href="https://github.com/ballhan/Theme-Changer" target="_blank"><button type="button"
+								class="btn btn-primary">Code</button></a>
+                    <ul class="experience-duty">
+                        <li>Built a chrome extension that changes the background and the font color of a website
+                        </li>
+                        <li id="portfolioLowBound">Current version includes Dark Mode and Eye Comfort Mode, more features coming soon</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-				<!----
-				<div class="content-container">   
-					<div class="row">
-						<div id="imgTranslateHelper" class="col-sm-6  temp-hide">
-							<img class="container-img" src="Assets/Project/jsGame.gif" alt="">
-						</div>
-						<div id="textTranslateHelper" class="col-sm-6  temp-hide">
-							<h3 class="experience-company">Translater Helper</h3></a>
-							<a href="https://github.com/ballhan/Translate-Helper" target="_blank"><button type="button" class="btn btn-primary">Code</button></a>
-							<ul class="experience-duty">
-								<li>Built a chrome extension that shows the translation when user select a word on a webpage</li>
-								<li>Current version includes support for English to Chinese, more features coming soon</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				-->
+    <footer id="copyright" class="container-fluid">
+        <div>
+            <h3 class="copyright-text">Made with <strong>LOVE</strong> by Bohan Chen</h3>
+        </div>
+    </footer>
 
-				<div class="content-container">   
-			    	<div class="row">
-						<div id="imgThemeChanger" class="col-sm-6  temp-hide">
-							<img class="container-img" src="Assets/Project/themeChanger.png" alt="">
-						</div>
-						<div id="textThemeChanger" class="col-sm-6  temp-hide">
-							<h3 class="experience-company">Theme Changer</h3></a>
-							<a href="https://github.com/ballhan/Theme-Changer" target="_blank"><button type="button" class="btn btn-primary">Code</button></a>
-							<ul class="experience-duty">
-								<li>Built a chrome extension that changes the background and the font color of a website</li>
-								<li id="portfolioLowBound">Current version includes Dark Mode and Eye Comfort Mode, more features coming soon</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/navbarScrolling.js"></script>
+    <script src="js/navbarCollapse.js"></script>
+    <script src="js/contentInview.js"></script>
+    <script src="js/contentFadein.js"></script>
+</body>
 
-		<footer id="copyright" class="container-fluid">
-			<div>
-				<h3 class="copyright-text">Made with <strong>LOVE</strong> by Bohan Chen</h3>
-			</div>
-		</footer>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="Js/navbarActive.js"></script>
-		<script src="Js/navbarScrolling.js"></script>
-		<script src="Js/navbarCollapse.js"></script>
-		<script src="Js/contentInview.js"></script>
-		<script src="Js/contentFadein.js"></script>
-	</body>
 </html>
