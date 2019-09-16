@@ -1,8 +1,11 @@
-﻿html,
-body {
-    height: 100%;
-    width: 100%;
+﻿#introContent {
+    background-color: #61676e;
+    margin: 0;
+}
+
+#mainContent {
     background-color: #F5F5F5;
+    margin: 0;
 }
 
 
@@ -16,11 +19,11 @@ body {
 }
 
 .navbar .navbar-brand {
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .navbar .navbar-brand:hover {
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .navbar .navbar-brand:focus {
@@ -39,7 +42,7 @@ body {
 
 .navbar .navbar-nav li a:focus {
     background-color: #212529;
-    color: #D5D5D5;
+    color: #FFFFFF;
 }
 
 .intro {
@@ -87,16 +90,22 @@ body {
 }
 
 .content-container {
-    padding: 0px 25% 100px 25%;
+    padding: 0px 10% 100px 10%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="content-container"] {
-        padding: 0px 10% 100px 10%;
-        font-family: 'Source Sans Pro', sans-serif;
-    }
+#textAbout {
+    background-color: #3D4145;
+}
+
+#contactAbout {
+    background-color: #212529;
+}
+
+.about-text {
+    font-size: 160%;
+    text-align: center;
+    color: #ffffff;
 }
 
 .container-text {
@@ -135,61 +144,26 @@ body {
 
 /* Contact */
 
+.contact {
+    display: table;
+    margin: 0 auto;
+}
+
 .contact li {
     text-align: center;
-    font-size: 400%;
+    font-size: 300%;
+    display: inline;
+    padding: 10px 20px 10px 20px;
 }
 
-#github {
-    color: #333;
-}
-
-#linkedin {
-    color: #0077B5;
-}
-
+#github,
+#linkedin,
 #mail {
-    color: #CC483E;
+    color: #f5f5f5;
 }
 
-.contact li:hover {
-    animation: shake 0.6s infinite;
-}
-
-@keyframes shake {
-    0% {
-        transform: translate(1px, 1px) rotate(0deg);
-    }
-    10% {
-        transform: translate(-1px, -2px) rotate(-1deg);
-    }
-    20% {
-        transform: translate(-3px, 0px) rotate(1deg);
-    }
-    30% {
-        transform: translate(3px, 2px) rotate(0deg);
-    }
-    40% {
-        transform: translate(1px, -1px) rotate(1deg);
-    }
-    50% {
-        transform: translate(-1px, 2px) rotate(-1deg);
-    }
-    60% {
-        transform: translate(-3px, 1px) rotate(0deg);
-    }
-    70% {
-        transform: translate(3px, 1px) rotate(-1deg);
-    }
-    80% {
-        transform: translate(-1px, -1px) rotate(1deg);
-    }
-    90% {
-        transform: translate(1px, 2px) rotate(0deg);
-    }
-    100% {
-        transform: translate(1px, -2px) rotate(-1deg);
-    }
+.contact li:hover li:focus {
+    color: #ffffff;
 }
 
 
