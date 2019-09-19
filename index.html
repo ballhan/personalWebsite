@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
-<body>
+<body onload="typeWriter()">
     <div id="introContent">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
@@ -39,7 +39,7 @@
                 <img class="about-img" src="Assets/bohanLogo.jpg" alt="bohanLogo">
             </div>
             <div id="textAbout" class="content-container">
-                <p id="hiText">Hi, I am Bohan!</p>
+                <p id="hiText"></p>
                 <p class="about-text" id="aboutLowBound">I’m a student at the University of Waterloo and currently working at Blackberry as a Salesforce developer.</br>
                     </br>When I’m not doing school work, I enjoy playing sports and socializing with people. I also make web applications and websites for my friends.</p>
             </div>
@@ -196,6 +196,7 @@
     <script src="js/navbarCollapse.js"></script>
     <script src="js/contentInview.js"></script>
     <script src="js/contentFadein.js"></script>
+    <script src="js/typewriter.js"></script>
 </body>
 
 </html>

@@ -16,7 +16,7 @@
 .navbar {
     background-color: #212529;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 150%;
+    font-size: 23px;
     border-color: transparent;
 }
 
@@ -39,7 +39,6 @@
 .navbar .navbar-nav li a:hover {
     background-color: #212529;
     color: #FFFFFF;
-    font-size: 110%;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -68,14 +67,9 @@
 }
 
 .about-text {
-    font-size: 160%;
+    font-size: 20px;
     text-align: center;
     color: #ffffff;
-}
-
-.container-text {
-    font-size: 160%;
-    text-align: center;
 }
 
 .about-img {
@@ -107,7 +101,7 @@
 }
 
 #hiText {
-    font-size: 300%;
+    font-size: 40px;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     padding: 20px 5% 20px 5%;
@@ -120,14 +114,12 @@
 }
 
 .intro-h1 {
-    font-size: 400%;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     padding: 0px 5% 0px 5%;
 }
 
 .intro-h2 {
-    font-size: 300%;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     padding: 0px 5% 0px 5%;
@@ -155,7 +147,7 @@
 /* Contact */
 
 .contact {
-    font-size: 300%;
+    font-size: 40px;
     list-style-type: none;
     text-align: center
 }
@@ -187,22 +179,22 @@
 
 .experience-company {
     color: green;
-    font-size: 180%;
+    font-size: 25px;
 }
 
 .experience-position {
     color: #3C5AB4;
-    font-size: 150%;
+    font-size: 20px;
 }
 
 .experience-location {
     color: #212529;
-    font-size: 140%;
+    font-size: 18px;
 }
 
 .experience-duty {
     padding: 5px;
-    font-size: 130%;
+    font-size: 17px;
 }
 
 
@@ -212,7 +204,7 @@
     color: #8a8a8a;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    font-size: 150%;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
