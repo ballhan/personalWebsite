@@ -3,200 +3,44 @@
 
 <head id="top">
     <title>Bohan Chen</title>
-    <link rel="icon" href="Assets/bohanLogo.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Bohan Chen">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="CSS/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
-<body>
-    <div id="introContent">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-                    <a class="navbar-brand" href="https://www.bohanchen.ca">Bohan Chen</a>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a id="navAbout" href="#top">ABOUT</a></li>
-                        <li><a id="navExperience" href="#experience">EXPERIENCE</a></li>
-                        <li><a id="navProject" href="#project">PROJECT</a></li>
-                    </ul>
-                </div>
+<body id="body" class="bdLightMode">
+    <div class="container-fluid">
+        <div class="row">
+            <div id="background" class="col-md-6">
             </div>
-        </nav>
 
-        <div id="about">
-            <div id="imgAbout" class="content-container">
-                <img class="about-img" src="Assets/bohanLogo.jpg" alt="bohanLogo">
-            </div>
-            <div id="textAbout" class="content-container">
-                <p id="hiText"></p>
-                <p class="about-text" id="aboutLowBound">I’m a student at the University of Waterloo and currently working at Blackberry as a Salesforce developer.</br>
-                    </br>When I’m not doing school work, I enjoy playing sports and socializing with people. I also make web applications and websites for my friends.</p>
-            </div>
-            <div id="contactAbout">
-                <ul class="contact list-unstyled">
-                    <li><a href="https://github.com/ballhan" target="_blank"><i class="fab fa-github-square"
-											id="github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/bohan-c-355501153/" target="_blank"><i
-											class="fab fa-linkedin" id="linkedin"></i></a></li>
-                    <li><a href="mailto:chenbohan81@gmail.com"><i class="fas fa-envelope" id="mail"></i></a>
-                    </li>
-                </ul>
+            <div class="col-md-6">
+                <div id="theme">
+                    <img id="sun" class="sun themeIcon" onclick="changeTheme()" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8cGF0aCBzdHlsZT0iZmlsbDojRkZBNjAwOyIgZD0iTTUwNy44MzQsMzAxLjYwOGwtNTQuNzY5LTQ4LjMxMmw1Mi44MzItNTAuMzk5YzEuOTQxLTEuODUyLDIuNzQtNC41OTEsMi4wOTktNy4xODkgIGMtMC42NDItMi41OTctMi42MjktNC42NTUtNS4yMTEtNS40MDFsLTcwLjMxNi0yMC4yOTJsMjUuOTg4LTY4LjA1NmMwLjk1NS0yLjUsMC40OTUtNS4zMTYtMS4yMDQtNy4zODkgIGMtMS43LTIuMDcyLTQuMzgzLTMuMDg1LTcuMDM4LTIuNjU3bC03Mi4yNzQsMTEuNjUybC01Ljg3OC03Mi41NjFjLTAuMjE2LTIuNjY2LTEuODQ2LTUuMDE1LTQuMjc1LTYuMTYxICBjLTIuNDI5LTEuMTQ2LTUuMjkxLTAuOTE3LTcuNTA0LDAuNjAxbC02MC4yNjYsNDEuMzQyTDI2My40MDksMy43NDJDMjYyLjA2NCwxLjQyNiwyNTkuNTc5LDAsMjU2Ljg4OSwwICBjLTIuNjksMC01LjE3NCwxLjQyNi02LjUxOSwzLjc0MkwyMDguMzQ3LDc2LjExbC03Mi42OS00MS45NTNjLTIuMzI3LTEuMzQzLTUuMTk3LTEuMzQ5LTcuNTI4LTAuMDE4ICBjLTIuMzMzLDEuMzMxLTMuNzczLDMuNzk5LTMuNzgsNi40NzNsLTAuMTc2LDcyLjc5NWwtNzIuOTY1LTYuMDE0Yy0yLjY3NS0wLjIyLTUuMjc1LDAuOTk3LTYuODA3LDMuMTk0ICBjLTEuNTMzLDIuMTk3LTEuNzcxLDUuMDQxLTAuNjIyLDcuNDU5bDMxLjI0Miw2NS44MzVMNi41MDgsMjA5LjU2MmMtMi41MTYsMC45NDMtNC4zMzUsMy4xNS00Ljc3Myw1Ljc4OSAgYy0wLjQzOCwyLjYzOCwwLjU3NSw1LjMwOCwyLjY1Niw3LjAwM2w1Ni42MTksNDYuMTUybC01MC44MTMsNTIuNDFjLTEuODY2LDEuOTI1LTIuNTU5LDQuNjk0LTEuODE2LDcuMjY0ICBjMC43NDQsMi41NywyLjgxLDQuNTUsNS40MTksNS4xOTRsNzEuMDU1LDE3LjU1MUw2MS41Niw0MTkuOTM2Yy0wLjg1NiwyLjUzNS0wLjI4Niw1LjMzMSwxLjQ5NCw3LjMzNiAgYzEuNzgxLDIuMDA1LDQuNTAyLDIuOTEzLDcuMTM3LDIuMzgybDcxLjc2LTE0LjQ0M2w4LjcyMSw3Mi4yNzhjMC4zMTksMi42NTUsMi4wNDEsNC45MzgsNC41MTMsNS45OSAgYzIuNDc0LDEuMDUyLDUuMzIzLDAuNzEyLDcuNDc1LTAuODkxbDU4LjU5Ni00My42NDdsMzkuMDU1LDU5LjU2NmMxLjM4MiwyLjE3OSwzLjc4OSwzLjQ5Miw2LjM2NywzLjQ5MiAgYzAuMDk4LDAsMC4xOTYtMC4wMDIsMC4yOTUtMC4wMDZjMi42ODctMC4xMDQsNS4xMTUtMS42MjYsNi4zNjgtMy45OTJsMzQuMTA3LTYyLjQwNWw2MS44MzksMzguOTc0ICBjMi4yNzMsMS40MzIsNS4xMzcsMS41NSw3LjUyMiwwLjMxYzIuMzgyLTEuMjQsMy45MTktMy42NSw0LjAzLTYuMzIybDMuMDMxLTcyLjczNGw3Mi42NzQsOC44NGMyLjY2NCwwLjMyNCw1LjMxLTAuNzkxLDYuOTI4LTIuOTI3ICBjMS42MTgtMi4xMzcsMS45NjYtNC45NjksMC45MTQtNy40M2wtMjguNjM2LTY2Ljk5N2w2OS40NjUtMjMuMDAzYzIuNTUyLTAuODQ1LDQuNDU2LTIuOTc5LDQuOTk3LTUuNTk5ICBDNTEwLjc1MiwzMDYuMDksNTA5Ljg0NSwzMDMuMzgzLDUwNy44MzQsMzAxLjYwOHoiLz4KPGVsbGlwc2Ugc3R5bGU9ImZpbGw6I0ZGREIyRDsiIGN4PSIyNTQuMzUiIGN5PSIyNTQuNjkxIiByeD0iMTU1LjA2OSIgcnk9IjE1NC45NDkiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGQ0EwMDsiIGQ9Ik0yNTQuMzU0LDk5Ljc0M2MtMy44ODQsMC03LjczMiwwLjE0Ny0xMS41NDMsMC40MjhjODAuMjUsNS45MDEsMTQzLjUyNSw3Mi44MjUsMTQzLjUyNSwxNTQuNTIxICBjMCw4MS42OTUtNjMuMjc1LDE0OC42MTktMTQzLjUyNSwxNTQuNTIxYzMuODExLDAuMjgsNy42NiwwLjQyOCwxMS41NDMsMC40MjhjODUuNjQxLDAsMTU1LjA2OC02OS4zNzMsMTU1LjA2OC0xNTQuOTQ4ICBDNDA5LjQyMiwxNjkuMTE2LDMzOS45OTUsOTkuNzQzLDI1NC4zNTQsOTkuNzQzeiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+                    <img id="moon" class="moon themeIcon" onclick="changeTheme()" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5OS43MTIgNDk5LjcxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDk5LjcxMiA0OTkuNzEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGRDkzQjsiIGQ9Ik0xNDYuODgsMzc1LjUyOGMxMjYuMjcyLDAsMjI4LjYyNC0xMDIuMzY4LDIyOC42MjQtMjI4LjY0YzAtNTUuOTUyLTIwLjE2LTEwNy4xMzYtNTMuNTItMTQ2Ljg4ICBDNDI1LjA1NiwzMy4wOTYsNDk5LjY5NiwxMjkuNjQsNDk5LjY5NiwyNDMuNzA0YzAsMTQxLjM5Mi0xMTQuNjA4LDI1Ni0yNTYsMjU2Yy0xMTQuMDY0LDAtMjEwLjYwOC03NC42NC0yNDMuNjk2LTE3Ny43MTIgIEMzOS43NDQsMzU1LjM2OCw5MC45NDQsMzc1LjUyOCwxNDYuODgsMzc1LjUyOHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0Y0QzUzNDsiIGQ9Ik00MDEuOTIsNDIuNzc2YzM0LjI0LDQzLjUwNCw1NC44MTYsOTguMjcyLDU0LjgxNiwxNTcuOTUyYzAsMTQxLjM5Mi0xMTQuNjA4LDI1Ni0yNTYsMjU2ICBjLTU5LjY4LDAtMTE0LjQ0OC0yMC41NzYtMTU3Ljk1Mi01NC44MTZjNDYuODQ4LDU5LjQ3MiwxMTkuMzQ0LDk3Ljc5MiwyMDAuOTI4LDk3Ljc5MmMxNDEuMzkyLDAsMjU2LTExNC42MDgsMjU2LTI1NiAgQzQ5OS43MTIsMTYyLjEyLDQ2MS4zOTIsODkuNjQsNDAxLjkyLDQyLjc3NnoiLz4KPGc+Cgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRkZEODNCOyIgcG9pbnRzPSIxMjguMTI4LDk5Ljk0NCAxNTQuNDk2LDE1My40IDIxMy40NzIsMTYxLjk2IDE3MC44LDIwMy41NiAxODAuODY0LDI2Mi4yOTYgICAgMTI4LjEyOCwyMzQuNTY4IDc1LjM3NiwyNjIuMjk2IDg1LjQ0LDIwMy41NiA0Mi43NjgsMTYxLjk2IDEwMS43NDQsMTUzLjQgICIvPgoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0ZGRDgzQjsiIHBvaW50cz0iMjc2Ljg2NCw4Mi44NCAyOTAuNTI4LDExMC41NTIgMzIxLjEwNCwxMTQuOTg0IDI5OC45NzYsMTM2LjU1MiAzMDQuMjA4LDE2Ni45ODQgICAgMjc2Ljg2NCwxNTIuNjE2IDI0OS41MiwxNjYuOTg0IDI1NC43NTIsMTM2LjU1MiAyMzIuNjI0LDExNC45ODQgMjYzLjIsMTEwLjU1MiAgIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+                </div>
+                <div class="container">
+                    <div id="header"> 
+                        <h1>Hi, I am Bohan Chen</h1>
+                    </div>
+                    <div id="content">
+                        <p>I’m a student at the <a href="https://uwaterloo.ca/" target="_blank" class="inlineLink">University of Waterloo</a> and an intern working at <a href="https://www.blackberry.com/us/en" target="_blank" class="inlineLink">BlackBerry Limited</a> as a Salesforce developer.</p>
+                        <p>I have a passion for software engineering especially web development. I have also interned at <a href="https://www.raymondjames.ca/" target="_blank" class="inlineLink">Raymond James Ltd </a> and <a href="https://www.kik.com/" target="_blank" class="inlineLink"> Kik Interactive</a> in the past.</p>
+                        <p>I love trying new things and pushing myself by overcoming challenges. I learned snowboarding in the past winter and now I am learning gymnastics in my free time.</p>
+                        <p>I am seeking an internship opportunity for Fall 2020, feel free to contact me to discuss career opportunities.</p>
+                    </div>
+                    <div id="contact">
+                        <a href="https://github.com/ballhan" target="_blank"><i class="fab fa-github-square contactIcon"></i></a>
+                        <a href="https://www.linkedin.com/in/bohan-c-355501153/" target="_blank"><i class="fab fa-linkedin contactIcon"></i></a>
+                        <a href="mailto:chenbohan81@gmail.com"><i class="fas fa-envelope contactIcon"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div id="mainContent">
-        <div id="experience" class="card">
-            <div class="intro">
-                <h1 id="portfolioHighBound" class="intro-h1">Experiences</h1>
-            </div>
-
-            <div class="content-container">
-                <div class="row">
-                    <div id="imgRj" class="col-sm-6  temp-hide">
-                        <img class="experience-img" src="Assets/Experience/Rj.jpg" alt="">
-                    </div>
-                    <div id="textRj" class="col-sm-6  temp-hide experience-text">
-                        <h3 class="experience-company">Raymond James Ltd.</h3>
-                        <h4 class="experience-position">Web Developer, 09/2018 - 12/2018</h4>
-                        <h4 class="experience-location">Toronto, ON</h4>
-                        <ul class="experience-duty">
-                            <li>Updated and maintained the company’s websites using Sitecore and SharePoint</li>
-                            <li>Debugged and resolved frontend bugs on websites using HTML, CSS and Bootstrap</li>
-                            <li>Built multiple Finance Calculator applications using Angular with charts and graphics drew using HTML Canvas for advisors to visualize the relationship between each component
-                            </li>
-                            <li>Refactored over 500 lines of code for reusability and maintainability</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-container">
-                <div class="row">
-                    <div id="imgKik" class="col-sm-6  temp-hide">
-                        <img class="experience-img" src="Assets/Experience/Kik.png" alt="">
-                    </div>
-                    <div id="textKik" class="col-sm-6  temp-hide experience-text">
-                        <h3 class="experience-company">Kik Interactive</h3>
-                        <h4 class="experience-position">QA Analyst, 01/2018 - 04/2018</h4>
-                        <h4 class="experience-location">Waterloo, ON</h4>
-                        <ul class="experience-duty">
-                            <li>Performed daily tasks including Sanity, Regression and Upgrade Testing</li>
-                            <li>Wrote Integrated Tests using C# with Visual Studio for the QA team’s UI Automation Project
-                            </li>
-                            <li>Developed test suites and debugged features including iPhone X UI Remake, Verification Badge, Group Description, Chat Theme, Profile Background Picture and Share Extension
-                            </li>
-                            <li>Investigated bugs based on reports from Internal Slack Channel, Instabug and User Reviews
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-container">
-                <div class="row">
-                    <div id="imgUWCSA" class="col-sm-6  temp-hide">
-                        <img class="experience-img" src="Assets/Experience/UWCSA.png" alt="">
-                    </div>
-                    <div id="textUWCSA" class="col-sm-6  temp-hide">
-                        <h3 class="experience-company">UWCSA (University of Waterloo Chinese Student Association)</h3>
-                        <h4 class="experience-position">Event Coordinator, 05/2017 - Present</h4>
-                        <h4 class="experience-location">University of Waterloo, ON</h4>
-                        <ul class="experience-duty">
-                            <li>Brainstormed, planned and hosted school-wide events such as UWCSA Night Market and Simu Liu Greet and Meet which provided quality leisure time for over 1000 students</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-container">
-                <div class="row">
-                    <div id="imgMonsheong" class="col-sm-6  temp-hide">
-                        <img class="experience-img" src="Assets/Experience/Monsheong.png" alt="">
-                    </div>
-                    <div id="textMonsheong" class="col-sm-6  temp-hide">
-                        <h3 class="experience-company">Mon Sheong Chinese School</h3>
-                        <h4 class="experience-position">Teaching Assistant, 04/2015 - 04/2016</h4>
-                        <h4 class="experience-location">Richmond Hill, ON</h4>
-                        <ul class="experience-duty">
-                            <li>Taught children essential day-to-day communication skills</li>
-                            <li>Supervised children to behave in a safe and organized manner</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="project" class="card">
-            <div class="intro">
-                <h1 class="intro-h1">Projects</h1>
-            </div>
-
-            <div class="content-container">
-                <div class="row">
-                    <div id="imgJsGame" class="col-sm-6  temp-hide">
-                        <img class="container-img" src="Assets/Project/jsGame.gif" alt="">
-                    </div>
-                    <div id="textJsGame" class="col-sm-6  temp-hide">
-                        <h3 class="experience-company">2D Shooting Game</h3>
-                        </a>
-                        <a href="https://ballhan.github.io/2D-Shooting-Game/" target="_blank"><button type="button"
-								class="btn btn-primary">Demo</button></a>
-                        <a href="https://github.com/ballhan/2D-Shooting-Game" target="_blank"><button type="button"
-								class="btn btn-primary">Code</button></a>
-                        <ul class="experience-duty">
-                            <li>Built a web game with graphics drew using HTML Canvas, hosted using GitHub Pages</li>
-                            <li>Current version includes four types of enemies and one shooting style, more features coming soon</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-container">
-                <div class="row">
-                    <div id="imgThemeChanger" class="col-sm-6  temp-hide">
-                        <img class="container-img" src="Assets/Project/themeChanger.png" alt="">
-                    </div>
-                    <div id="textThemeChanger" class="col-sm-6  temp-hide">
-                        <h3 class="experience-company">Theme Changer</h3>
-                        </a>
-                        <a href="https://github.com/ballhan/Theme-Changer" target="_blank"><button type="button"
-								class="btn btn-primary">Code</button></a>
-                        <ul class="experience-duty">
-                            <li>Built a chrome extension that changes the background and the font color of a website
-                            </li>
-                            <li id="portfolioLowBound">Current version includes Dark Mode and Eye Comfort Mode, more features coming soon</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer id="copyright" class="container-fluid">
-            <div>
-                <h3 class="copyright-text">Made with <strong>LOVE</strong> by Bohan Chen</h3>
-            </div>
-        </footer>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/navbarScrolling.js"></script>
-    <script src="js/navbarCollapse.js"></script>
-    <script src="js/contentInview.js"></script>
-    <script src="js/contentFadein.js"></script>
-    <script src="js/typewriter.js"></script>
+    <script src="js/changeTheme.js"></script>
 </body>
 
 </html>
