@@ -24,7 +24,7 @@
 }
 
 .container {
-    padding: 50px 150px !important; /* padding for content */
+    padding: 80px 150px !important; /* padding for content */
 }
 
 @media (max-width: 1360px){
