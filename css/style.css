@@ -24,7 +24,7 @@
 }
 
 .container {
-    padding: 80px 150px !important; /* padding for content */
+    padding: 50px 150px !important; /* padding for content */
 }
 
 @media (max-width: 1360px){
@@ -40,6 +40,19 @@
 
     #background{
         display: none;
+    }
+
+    #header h1{
+        font-size: 25px;
+    }
+
+    #content p{
+        font-size: 14px;
+    }
+
+    .contactIcon {
+        font-size: 25px;
+        padding: 10px 10px;
     }
 
 }
