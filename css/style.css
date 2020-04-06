@@ -1,1 +1,104 @@
+.bdLightMode {
+    background-color: #eee;
+    color: #111;
+    transition: 0.5s ease;
+}
 
+.bdDarkMode {
+    background-color: #111;
+    color: #eee;
+    transition: 0.5s ease;
+}
+
+.container-fluid {
+    padding-right: 0 !important; /* remove padding for background picture */
+    padding-left: 0 !important;
+}
+
+#background {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url("../asset/background.jpg"); 
+}
+
+.container {
+    padding: 150px !important; /* padding for content */
+}
+
+@media (max-width: 1360px){
+    .container {
+        padding: 60px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .container {
+        padding: 60px !important;
+    }
+
+    #background{
+        display: none;
+    }
+
+}
+
+.themeIcon {
+    width: 80px;
+    cursor: pointer;
+    padding: 30px 20px;
+    position: fixed;
+    right: 0;
+}
+
+.moon {
+    display: none;
+}
+
+.sun:hover{
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+.moon:hover{
+    transform: scale(1.1);
+}
+
+#content {
+    font-size: 20px;
+}
+
+#header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.inlineLink {
+    color: #6d6d6d;
+    text-decoration: none !important;
+}
+
+.inlineLink:hover {
+    color: #6d6d6d;
+}
+
+#contact {
+    text-align: center;
+}
+
+.contactIcon {
+    color: #000000;
+    font-size: 40px;
+    padding: 20px 20px;
+    transition: 0.5s ease;
+}
