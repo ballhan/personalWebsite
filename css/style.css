@@ -24,18 +24,18 @@
 }
 
 .container {
-    padding: 150px !important; /* padding for content */
+    padding: 50px 150px !important; /* padding for content */
 }
 
 @media (max-width: 1360px){
     .container {
-        padding: 60px !important;
+        padding: 50px 60px !important;
     }
 }
 
 @media (max-width: 767px){
     .container {
-        padding: 60px !important;
+        padding: 50px 60px !important;
     }
 
     #background{
